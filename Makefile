@@ -1,4 +1,4 @@
-SOURCE=index
+SOURCE=Introduction
 all: slides html pdf
 
 install:
@@ -22,4 +22,3 @@ pdf:
 
 clean:
 	rm -f "$(SOURCE).html" "slides.html" "$(SOURCE).pdf"
-	
