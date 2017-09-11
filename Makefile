@@ -1,4 +1,4 @@
-SOURCE=Introduction
+SOURCE=README
 all: slides html pdf
 
 install:

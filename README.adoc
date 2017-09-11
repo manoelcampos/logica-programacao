@@ -1,10 +1,18 @@
-= Lógica de Programação
+= Introdução
 :revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0
 :source-highlighter: coderay
 :imagesdir: images
 :allow-uri-read:
 :safe: unsafe
 :toc:
+ifdef::env-github[]
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 
 - https://palmas.ifto.edu.br/index.php/component/content/article?id=225[Curso Superior de Sistemas para Internet]
 - http://www.ifto.edu.br[Instituto Federal de Educação, Ciência e Tecnologia do Tocantins]
@@ -23,7 +31,7 @@ video::192179726[vimeo, start=5]
 
 - robôs, semâforos, câmeras fotográficas, geladeiras, produtos de automação residencial como fechaduras eletrônicas, lâmpadas e uma série de produtos inteligentes como porteiros eletrônicos, relógios, balanças Wi-Fi, etc.
 
-IMPORTANT: Programas podem ser chamados de _softwares_, aplicações ou aplicativos. Em _smartphones_ eles são comumente chamados apenas de _apps_.
+TIP: Programas podem ser chamados de _softwares_, aplicações ou aplicativos ou simplesmente _apps_.
 
 video::wek9VPTdMMM[youtube]
 video::tmQpP_r9QsU[youtube]
@@ -34,9 +42,9 @@ Programas podem ser desenvolvidos como páginas de internet, para serem acessado
  
 == Motivação 
 
-Um dispositivo com poder computacional só consegue realizar qualquer tarefas se tiver programas para isto. Tais dispositivos sem programas não tem qualquer utilidade. Desta forma, pode-se criar programas para:
+Um dispositivo com poder computacional só consegue realizar tarefas se tiver programas para isto. Tais dispositivos sem programas não tem qualquer utilidade. Desta forma, pode-se criar programas para:
 
-* Automatizar tarefas repetitivas que demandem tempo e/ou esforço, visando reduzir: custos, tempo de finalização de tais tarefas e eficiência pela redução de erros humanos.
+* Automatizar tarefas repetitivas que demandem tempo e/ou esforço, visando reduzir: custos, tempo e redução de erros humanos.
 * Resolver problemas que antes não eram possíveis sem o uso da computação. Além dos exemplos já apresentados, alguns problemas que só puderam ser resolvidos com o uso de programas são: 
     ** aproximação de consumidores e fornecedores, como o http://uber.com[Uber]; 
     ** comunicação instantânea com texto, áudio e vídeo como o https://whatsapp.com[WhatsApp];
@@ -44,45 +52,22 @@ Um dispositivo com poder computacional só consegue realizar qualquer tarefas se
     ** tradução instantânea de video-chamadas com https://www.skype.com[Skype];
     ** e muitas outras aplicações inovadoras.
 
-Desenvolver programas é algo desafiador, a medida que você se depara com problemas cada vez mais complexos. Se você é o tipo de pessoa que é instigada por desafios, você pode se desafiar a cada dia durante o processo de aprendizagem de lógica de programação. Esta disciplina lhe ajuda a aguçar o raciocínio lógico e a despertar o espírito empreendedor. 
-
-Com foco e dedicação, você começará a ver o mundo com outros olhos, procurando um problema em cada lugar e desafiando-se a resolvê-los.
-Programação pode ser ainda divertido com o desenvolvimento de jogos, aplicativos para celular, páginas web, automação de robôs, drones e tudo mais.
-
-Programação é essencial em todas as áreas da computação. Já houve tempos em que existiam profissionais de nível superior com especialização em redes de computadores, infraestrutura de informática, administração de servidores e outras áreas. Estes profissionais antigamente trabalhavam diretamente com os equipamentos físicos. Atualmente, com o advento da computação em nuvem, a infraestrutura de informática e redes é controlada por meio de programas. Recursos computacionais como memória, processamento e armazenamento são reservados para empresas, empreendedores individuais e pessoas físicas por meio de aplicações e sistemas web.
-
-== Pré-requisitos
-
-Força de vontade, dedicação, comprometimento, foco, objetivos, visão a longo prazo, proatividade, curiosidade, vontade de se manter sempre atualizado e matemática básica para começar.
-
-
+TIP: Computar signifca avaliar, igualar, orçar e não somente calcular ou contar.
 
 image::uber-map.png[title=Aplicativo Uber]
 video::G87pHe6mP0I[youtube]
 
-IMPORTANT: Computar signifca avaliar, igualar, orçar e não somente calcular ou contar.
+Desenvolver programas pode ser algo desafiador, a medida que você se depara com problemas cada vez mais complexos. Se você é o tipo de pessoa que é instigada por desafios, você está no caminho certo para aprender lógica de programação. Esta disciplina lhe ajuda a aguçar o raciocínio lógico e a despertar o espírito empreendedor. 
 
-== Aplicabilidade
+Com foco e dedicação, você começará a ver o mundo com outros olhos, procurando um problema em cada lugar e desafiando-se a resolvê-los.
+Programação pode ser ainda divertido com o desenvolvimento de jogos, aplicativos para celular, páginas web, automação de robôs, drones e tudo mais.
 
-- O uso de 
+Programação é essencial em todas as áreas da computação. Com o advento da computação em nuvem, empresas, empreendedores individuais e pessoas físicas podem alugar recursos computacionais como armazenamento de um provedor de computação em nuvem. Provedores possuem uma série de servidores (computadores de alto poder computacional) que podem ser alugados para vários clientes. Diversos clientes podem compartilhar o mesmo servidor. Todo o processo de reserva de recursos computacionais para cada cliente pode ser feito por programas, normalmente aplicações web. Tais programas permitem aos clientes reservarem mais recursos como espaço de armazenamento à medida que precisarem, sem precisar da intervenção de intervenção humana do provedor para reservar espaço no servidor.
 
-== Como desenvolver programas
+Por fim, profissionais que querem se manter atualizados em qualquer sub-area da informática devem ter conhecimento de programação.
 
-Tais programas serão desenvolvidos utilizando-se *algoritmos* escritos em alguma *linguagem de programação*. 
+== Pré-requisitos
 
-== Método de Avaliação
+Para aprender lógica de programação é preciso *foco*, *dedicação*, *proatividade* e *curiosidade*. Estas são características normalmente necessárias para desenvolver qualquer nova habilidade, desde uma habilidade motora como tocar um instrumento musical até aprender um novo idioma. Por falar em idiomas, você verá que saber algo de inglês ajuda bastante. 
 
-Para ser aprovado na disciplina o aluno precisa ter:
-
-- pelo menos 75% de presença
-
-
-== Recursos de Aprendizagem
-
-- https://kahoot.com
-- http://exercism.io
-- http://education.github.com
-- http://gitbook.com
-
-ifdef::book[]
-endif::book[]
+Apesar de não ser um pré-requisito, se ainda não sabe inglês, já passou da hora de iniciar os estudos. Aprender inglês ao longo do caminho abrirá um mundo de possibilidades em programação. Existem incontáveis materiais de altíssima qualidade disponíveis em inglês. Empresas como a https://www.coursera.org[Coursera] disponibilizam diversos cursos gratuitos, desenvolvidos por universidades conceituadas dos Estados Unidos como Stanford e MIT.
