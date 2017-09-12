@@ -25,5 +25,5 @@ Programas são desenvolvidos utilizando-se *algoritmos* escritos em alguma *ling
 - https://code.org
 - https://scratch.mit.edu
 
-ifdef::book[]
-endif::book[]
+ifdef::backend-revealjs[]
+endif::backend-revealjs[]
