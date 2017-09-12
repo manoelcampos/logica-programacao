@@ -18,7 +18,7 @@ endif::[]
 - http://www.ifto.edu.br[Instituto Federal de Educação, Ciência e Tecnologia do Tocantins]
 - http://about.me/manoelcampos[Prof. Me. Manoel Campos da Silva Filho]
 
-== Objetivo
+== Objetivos
 
 Aprender os fundamentos para desenvolvimento de *programas* para solucionar problemas cotidianos.
 Programas são executados em equipamentos como *computadores* e *smartphones*. Porém, atualmente podem ser encontrados em equipamentos footnote:[Equipamentos, dispositivos (ou _devices_ em inglês)] como: 
@@ -27,14 +27,14 @@ Programas são executados em equipamentos como *computadores* e *smartphones*. P
 - https://pt.wikipedia.org/wiki/Veículo_aéreo_não_tripulado[drones]: para permitir controlar aeronaves não tripuladas por meio de controle remoto ou mesmo permitir que elas possam voar de forma autônoma sem intervenção humana. 
 - *veículos*: prover https://pt.wikipedia.org/wiki/Sistema_de_posicionamento_global[serviços de navegação por satélite (GPS)], entretenimento como players de vídeo e música e aplicações populares em smartphones como o Spotify, ou até mesmo permitir que carros possam ser guiados de forma autônoma, sem a intervenção do motorista, como é o caso de veículos da Tesla Motors. 
 
-video::192179726[vimeo, start=5]
+video::192179726[vimeo, start=5, width=640, height=480]
 
 - robôs, semâforos, câmeras fotográficas, geladeiras, produtos de automação residencial como fechaduras eletrônicas, lâmpadas e uma série de produtos inteligentes como porteiros eletrônicos, relógios, balanças Wi-Fi, etc.
 
 TIP: Programas podem ser chamados de _softwares_, aplicações ou aplicativos ou simplesmente _apps_.
 
-video::wek9VPTdMMM[youtube]
-video::tmQpP_r9QsU[youtube]
+video::wek9VPTdMMM[youtube, width=640, height=480]
+video::tmQpP_r9QsU[youtube, width=640, height=480]
 
 Pode-se ainda desenvolver jogos para vários dos equipamentos citados, além de consoles de video game como Playstation, X-Box e outros.
 
@@ -55,7 +55,7 @@ Um dispositivo com poder computacional só consegue realizar tarefas se tiver pr
 TIP: Computar signifca avaliar, igualar, orçar e não somente calcular ou contar.
 
 image::uber-map.png[title=Aplicativo Uber]
-video::G87pHe6mP0I[youtube]
+video::G87pHe6mP0I[youtube, width=640, height=480]
 
 Desenvolver programas pode ser algo desafiador, a medida que você se depara com problemas cada vez mais complexos. Se você é o tipo de pessoa que é instigada por desafios, você está no caminho certo para aprender lógica de programação. Esta disciplina lhe ajuda a aguçar o raciocínio lógico e a despertar o espírito empreendedor. 
 
@@ -71,3 +71,11 @@ Por fim, profissionais que querem se manter atualizados em qualquer sub-area da 
 Para aprender lógica de programação é preciso *foco*, *dedicação*, *proatividade* e *curiosidade*. Estas são características normalmente necessárias para desenvolver qualquer nova habilidade, desde uma habilidade motora como tocar um instrumento musical até aprender um novo idioma. Por falar em idiomas, você verá que saber algo de inglês ajuda bastante. 
 
 Apesar de não ser um pré-requisito, se ainda não sabe inglês, já passou da hora de iniciar os estudos. Aprender inglês ao longo do caminho abrirá um mundo de possibilidades em programação. Existem incontáveis materiais de altíssima qualidade disponíveis em inglês. Empresas como a https://www.coursera.org[Coursera] disponibilizam diversos cursos gratuitos, desenvolvidos por universidades conceituadas dos Estados Unidos como Stanford e MIT.
+
+== Metodologia
+
+== Plano do Curso
+
+== Método de Avaliação
+
+Para ser aprovado na disciplina o aluno precisa ter média igual ou superior a 6 e pelo menos 75% de presença.

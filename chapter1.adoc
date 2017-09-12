@@ -1,0 +1,29 @@
+= O que é lógica de programação
+
+A lógica de programação é a disciplina que ensina os *fundamentos* para o desenvolvimento de programas em geral, a serem utilizados para as mais diversas finalidades e dispositivos, como apresentado no capítulo anterior.
+
+Programas são desenvolvidos visando um determinado objetivo, seja para resolução de problemas ou apenas entretenimento (como no caso dos jogos).
+
+== Como desenvolver programas
+
+Pense em um programa como um robô: ele não faz nada que não tenha sido programado para fazer. Se ele faz algo que não era esperado de ser feito, é por motivo de falhas mecânicas ou falhas humanas ao programá-lo. Mesmo robôs que tomam decisões autônomas o fazem com base em análise de dados e instruções programadas por humanos. Por exemplo, sem precisar ir muito longe até os carros que dirigem sozinhos, atualmente temos carros convencionais guiados por pessoas que detectam a iminência de uma colisão e acionam o freio automaticamente. O veículo analisa dados como imagens de câmeras, velocidade do veículo e distância até um obstáculo. A partir de resultados de cálculos, o computador de bordo aciona os freios. Sem o conhecimento humano para desenvolver os programas utilizados pelo carro, nada disso seria possível.
+
+video::TnFwOzylMtQ[youtube, width=640, height=480]
+
+Programas são desenvolvidos utilizando-se *algoritmos* escritos em alguma *linguagem de programação*. 
+
+== Recursos de Aprendizagem
+
+- https://kahoot.com
+- http://exercism.io
+- http://education.github.com
+- http://gitbook.com
+- https://pt.khanacademy.org
+- https://www.codecademy.com/pt
+- https://br.udacity.com/
+- https://www.edx.org
+- https://code.org
+- https://scratch.mit.edu
+
+ifdef::book[]
+endif::book[]
