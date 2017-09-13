@@ -1,3 +1,5 @@
+:imagesdir: images
+
 = O que é lógica de programação
 
 A lógica de programação é a disciplina que ensina os *fundamentos* para o desenvolvimento de programas em geral, a serem utilizados para as mais diversas finalidades e dispositivos, como apresentado no capítulo anterior.
@@ -8,7 +10,19 @@ Programas são desenvolvidos visando um determinado objetivo, seja para resoluç
 
 Pense em um programa como um robô: ele não faz nada que não tenha sido programado para fazer. Se ele faz algo que não era esperado de ser feito, é por motivo de falhas mecânicas ou falhas humanas ao programá-lo. Mesmo robôs que tomam decisões autônomas o fazem com base em análise de dados e instruções programadas por humanos. Por exemplo, sem precisar ir muito longe até os carros que dirigem sozinhos, atualmente temos carros convencionais guiados por pessoas que detectam a iminência de uma colisão e acionam o freio automaticamente. O veículo analisa dados como imagens de câmeras, velocidade do veículo e distância até um obstáculo. A partir de resultados de cálculos, o computador de bordo aciona os freios. Sem o conhecimento humano para desenvolver os programas utilizados pelo carro, nada disso seria possível.
 
-video::TnFwOzylMtQ[youtube, width=640, height=480]
+video::TnFwOzylMtQ[youtube, width=640, height=480, title="Sistema autônomo de frenagem de emergência"]
+
+video::ig54q0rG94s[youtube, width=640, height=480, title="Estacionamento autônomo de veículo, sem presença do motorista"]
+
+As instruções dadas a um programa de computador são organizadas como em uma lista de tarefas ou uma receita de bolo. Desenvolver um programa é como produzir um filme, onde você é o diretor/roteirista e o programa é um ator executando as instruções como definidas no roteiro. Muitas vezes o ator pode improvisar, assim como um programa pode tomar decisões autônomas, como no caso do exemplo dos veículos acima.
+
+Assim como o roteiro de um filme é escrito utilizando alguma linguagem natural como inglês ou português, o "roteiro" de um programa também, só que utilizando-se linguagens específicas chamadas *linguagens de programação*. Linguagens naturais muitas vezes causam ambiguidades e não são concisas. 
+
+image::ambiguidade1.jpg[title="http://marcosmucheroni.pro.br/blog/?p=13570"]
+
+image::ambiguidade2.png[title="https://vidadeprogramador.com.br/2011/03/22/logica-de-programacao/"]
+
+Existem inúmeras linguagens de programação, com diversos níveis de complexidade, para as mais variadas finalidades. 
 
 Programas são desenvolvidos utilizando-se *algoritmos* escritos em alguma *linguagem de programação*. 
 
