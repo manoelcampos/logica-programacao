@@ -20,11 +20,26 @@ Assim como o roteiro de um filme é escrito utilizando alguma linguagem natural 
 
 image::ambiguidade1.jpg[title="http://marcosmucheroni.pro.br/blog/?p=13570"]
 
+.Como linguagens naturais, como o português, podem ser prolixas footnote:[excessivas, redundantes].
+|===
+| Extenso | Conciso
+| A multiplicidade de funcionalidades é realmente vantajosa para a comercialização do produto. | As várias funções do produto ajudarão nas vendas.
+|===
+
 image::ambiguidade2.png[title="https://vidadeprogramador.com.br/2011/03/22/logica-de-programacao/"]
 
-Existem inúmeras linguagens de programação, com diversos níveis de complexidade, para as mais variadas finalidades. 
+As linguagems de programação são então utilizadas para tornar mais fácil a tarefa de desenvolver programas. Existem inúmeras linguagens de programação, com diversos níveis de complexidade, para as mais variadas finalidades. Linguagens naturais como alemão podem ser mais difíceis de aprender do que outras como inglês, elas foram evoluindo ao longo dos séculos, se adaptando a aspectos culturais e às necessidades da sociedade para tornar a comunicação mais eficiente. Palavras e expressões caem em desuso e novas expressões são incorporadas ao idioma. Determinados idiomas são derivados de outros, como por exemplo o português e espanhol que são derivados do latim. 
 
-Programas são desenvolvidos utilizando-se *algoritmos* escritos em alguma *linguagem de programação*. 
+Tudo isso se aplica às linguagens de programação. Existem linguagens de https://en.wikipedia.org/wiki/List_of_programming_languages[A a Z], apesar de poucas delas serem amplamente utilizadas. O processo de aprendizagem de uma linguagem de programação é semelhante a de qualquer idioma: a partir do momento que se conhece uma determinada linguagem, para aprender outra será bem mais fácil, principalmente se esta for derivada da que você já conhece. 
+
+Linguagens de programação são em sua maioria derivadas do inglês. O aprendizado inclui vocabulário, gramática e outros detalhes. Felizmente, o vocabulário destas linguagens é extremamente sucinto, contendo apenas algumas dezenas de palavras.
+
+== Usando linguagens de programação
+
+Como já sabemos, programas são desenvolvidos a partir da escrita de um "roteiro" em uma linguagem de programação qualquer. Tal roteiro é denominado *algoritmo*. Ele é como uma redação, que precisa conter uma estrutura com começo, meio e fim, seguindo determinados padrões como pontuação e separação de parágrafos.
+
+https://msdn.microsoft.com/pt-br/library/befeaky0.aspx
+https://en.wikibooks.org/wiki/C_Programming/Language_Reference#ANSI_C_.28C89.29.2FISO_C_.28C90.29
 
 == Recursos de Aprendizagem
 
