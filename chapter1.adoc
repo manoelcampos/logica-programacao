@@ -55,7 +55,23 @@ video::SC5CX8drAtU[youtube, width=640, height=480, title="Problema do Caixeiro V
 - image:knapsack.png[title="Problema da mochila: Como maximizar o valor com um peso máximo?", width=240, link="https://pt.wikipedia.org/wiki/Problema_da_mochila" role="right"]https://pt.wikipedia.org/wiki/Problema_da_mochila[Problema da Mochila], que visa colocar o máximo de produtos dentro de uma mochila de modo a  obter o maior valor total em produtos (cada produto tem um preço). Algumas aplicações reais do problema da mochila incluem <<KP>>: 
     ** *transporte de carga*: carregamento de conteiners em navios de carga;
     ** *investimento no mercado financeiro*: considerando que tem-se uma determinada quantidade de dinheiro para investir, pode-se aplicar o problema da mochila para selecionar os melhores investimentos que conjuntamente aumentem os lucros, com o menor custo ou risco de investimento;
-    ** *computação na nuvem*: aplicações como o Google Fotos permitem fazer o upload de fotos em smartphones para a nuvem, permitindo aplicar filtros e gerar vídeos automaticamente a partir das fotos enviadas. Diferente de aplicativos como o Instagram, filtros são aplicados automaticamente em fotos selecionadas, realizando o processamento do filtro nos computadores na nuvem e não no smartphone do usuário. Como o Google Fotos possui milhões de usuários, são necessários milhares de computadores para conseguir aplicar filtros em fotos de uma quantidade tão grande de usuários. Como computadores tem capacidade limitada, o problema da mochila pode ser usado nestes contextos para selecionar adequadamente quais fotos serão processadas por quais computadores.
+    ** *computação na nuvem*: aplicações como o Google Fotos permitem fazer o upload de fotos em smartphones para a nuvem, aplicando filtros e gerando vídeos automaticamente a partir das fotos enviadas. Diferente de aplicativos como o Instagram, filtros são aplicados automaticamente em fotos selecionadas, realizando o processamento do filtro nos computadores na nuvem e não no smartphone do usuário. O Google Fotos possui milhões de usuários, necessitando de milhares de computadores para processar as fotos. Como computadores tem capacidade limitada, o problema da mochila pode ser usado nestes contextos para selecionar adequadamente quais fotos serão processadas por quais computadores.
+
+=== Representação de algoritmos
+
+Imagine que você é um programador e deseja programar um robô para testar e trocar lâmpadas na sua casa. Você precisará então elaborar um algoritmo para isto. Algoritmos podem ser representados de diversas maneiras. Uma maneira simples, e que facilita o entendimento, é por meio de fluxogramas como o da figura abaixo. 
+
+image::fluxograma-trocar-lampada.png[title="Fluxograma para troca de lâmpada", role="text-center"]
+
+Fluxogramas são amplamente utilizados em diversas áreas para representar, por exemplo, o fluxo de: 
+
+* processos em uma instituição;
+* tomada de decisões em uma empresa;
+* entrega de produtos comprados pela internet, etc.
+
+A figura apresentada mostra os passos básicos que o robô deve seguir (as instruções que ele deve executar) para verificar se a lâmpada está funcionando e realizar a troca. O algoritmo inicia na instrução "Acionar interruptor" e segue o fluxo definido pelas setas, de acordo com as respostas para as perguntas ao longo do processo.
+
+Este é um algoritmo apenas para efeitos didáticos, pois ele não cobre uma série de situações. Por exemplo, se após ser colocada uma nova lâmpada esta não acender, o algoritmo vai instruir o robô a chamar um eletricista. No entanto, esta nova lâmpada pode estar apenas queimada e não ser preciso chamar um eletricista.
 
 == Links
 
