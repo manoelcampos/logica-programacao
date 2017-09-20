@@ -1,4 +1,3 @@
-SOURCE=README
 all: slides html pdf
 
 install:
@@ -9,16 +8,18 @@ install:
 	bundle --path=.bundle/gems --binstubs=.bundle/.bin
 	#Install build dependencies using Bundler
 	bundler
+	#Installs GitBook Client to make easier to generate
+	#the book in HTML or PDF instead of using the asciidoctor tool.
+	npm install gitbook-cli -g
 
 slides:
-	bundle exec asciidoctor-revealjs "$(SOURCE).adoc" -o slides.html
+	bundle exec asciidoctor-revealjs "README.adoc" -o build/slides.html
 
 html:
-	asciidoctor -a allow-uri-read -b html5 "$(SOURCE).adoc" 
+	gitbook build ./ ./build/html
 
 pdf:
-	#"book" is a custom attribute used to selectively include content into the generated file when the attribute is defined by command line
-	asciidoctor-pdf -a allow-uri-read -a book "$(SOURCE).adoc" 
+	gitbook pdf ./ ./build/book.pdf
 
 clean:
-	rm -f "$(SOURCE).html" "slides.html" "$(SOURCE).pdf"
+	rm -f "build"

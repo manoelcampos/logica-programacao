@@ -85,3 +85,9 @@ Apesar de não ser um pré-requisito, se ainda não sabe inglês, já passou da 
 == Método de Avaliação
 
 Para ser aprovado na disciplina o aluno precisa ter média igual ou superior a 6 e pelo menos 75% de presença.
+
+ifdef::backend-revealjs[]
+
+include::chapter1.adoc[]
+
+endif::backend-revealjs[]

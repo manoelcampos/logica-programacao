@@ -95,9 +95,7 @@ video::pljz7BdQAts[youtube, width=640, height=480, title="Exemplo de construçã
 - https://en.wikibooks.org/wiki/C_Programming/Language_Reference#ANSI_C_.28C89.29.2FISO_C_.28C90.29
 - https://code.visualstudio.com
 - https://www.youtube.com/watch?time_continue=14&v=cwyRyZMTvBo
-
-ifdef::backend-revealjs[]
-endif::backend-revealjs[]
+- https://www.alice.org
 
 [bibliography]
 == References
