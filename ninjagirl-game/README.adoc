@@ -1,0 +1,9 @@
+= Informação
+
+Um exemplo básico de como animar um personagem para a construção de um jogo, a partir da criação de um algoritmo utilizando o editor drag-and-drop http://scratch.mit.edu[Scratch].
+
+A animação do personagem é feita pela construção de um algoritmo, montado a partir de blocos disponíveis no Scratch. Os blocos coloridos na lado direito da tela representam o algoritmo criado.
+
+A inteção do vídeo é únicamente mostrar uma das formas de representação de algoritmos e não ensinar como desenvolver jogos ou construir algoritmos no Scratch.
+
+As imagens utilizadas são de domínio público e foram obtidas em http://gameart2d.com[Game Art 2D].

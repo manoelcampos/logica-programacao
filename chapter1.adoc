@@ -61,6 +61,8 @@ video::SC5CX8drAtU[youtube, width=640, height=480, title="Problema do Caixeiro V
 
 Imagine que você é um programador e deseja programar um robô para testar e trocar lâmpadas na sua casa. Você precisará então elaborar um algoritmo para isto. Algoritmos podem ser representados de diversas maneiras. Uma maneira simples, e que facilita o entendimento, é por meio de fluxogramas como o da figura abaixo. 
 
+TIP: Comprar um robô e programar ele você mesmo é uma realidade. Existem diversos fabricantes vendendo desde robôs de brinquedo como da https://www.apple.com/swift/playgrounds[Lego], até robôs para resolver problemas reais. 
+
 image::fluxograma-trocar-lampada.png[title="Fluxograma para troca de lâmpada", role="text-center"]
 
 Fluxogramas são amplamente utilizados em diversas áreas para representar, por exemplo, o fluxo de: 
@@ -72,6 +74,10 @@ Fluxogramas são amplamente utilizados em diversas áreas para representar, por 
 A figura apresentada mostra os passos básicos que o robô deve seguir (as instruções que ele deve executar) para verificar se a lâmpada está funcionando e realizar a troca. O algoritmo inicia na instrução "Acionar interruptor" e segue o fluxo definido pelas setas, de acordo com as respostas para as perguntas ao longo do processo.
 
 Este é um algoritmo apenas para efeitos didáticos, pois ele não cobre uma série de situações. Por exemplo, se após ser colocada uma nova lâmpada esta não acender, o algoritmo vai instruir o robô a chamar um eletricista. No entanto, esta nova lâmpada pode estar apenas queimada e não ser preciso chamar um eletricista.
+
+Fluxogramas podem ser utilizados para representar mais claramente o funcionamento de um algoritmo para uma equipe de programadores empenhados em resolver um problema. No entanto, eles não é possível gerar programas a partir de fluxogramas. 
+
+video::pljz7BdQAts[youtube, width=640, height=480, title="Exemplo de construção de algoritmos utilizando blocos com o editor Scratch (http://scratch.mit.edu)"]
 
 == Links
 
@@ -88,6 +94,7 @@ Este é um algoritmo apenas para efeitos didáticos, pois ele não cobre uma sé
 - https://msdn.microsoft.com/pt-br/library/befeaky0.aspx
 - https://en.wikibooks.org/wiki/C_Programming/Language_Reference#ANSI_C_.28C89.29.2FISO_C_.28C90.29
 - https://code.visualstudio.com
+- https://www.youtube.com/watch?time_continue=14&v=cwyRyZMTvBo
 
 ifdef::backend-revealjs[]
 endif::backend-revealjs[]
