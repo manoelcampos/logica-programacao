@@ -1,6 +1,6 @@
 :imagesdir: images
 
-= O que é lógica de programação
+= Uma visão geral sobre lógica de programação
 
 A lógica de programação é a disciplina que ensina os *fundamentos* para o desenvolvimento de programas em geral, a serem utilizados para as mais diversas finalidades e dispositivos, como apresentado no capítulo anterior.
 
@@ -75,9 +75,39 @@ A figura apresentada mostra os passos básicos que o robô deve seguir (as instr
 
 Este é um algoritmo apenas para efeitos didáticos, pois ele não cobre uma série de situações. Por exemplo, se após ser colocada uma nova lâmpada esta não acender, o algoritmo vai instruir o robô a chamar um eletricista. No entanto, esta nova lâmpada pode estar apenas queimada e não ser preciso chamar um eletricista.
 
-Fluxogramas podem ser utilizados para representar mais claramente o funcionamento de um algoritmo para uma equipe de programadores empenhados em resolver um problema. No entanto, eles não é possível gerar programas a partir de fluxogramas. 
+Fluxogramas podem ser utilizados para representar mais claramente o funcionamento de um algoritmo para uma equipe de programadores empenhados em resolver um problema. Ferramentas como o http://scratch.mit.edu[Scratch] permitem ainda criar algoritmos a partir da montagem de blocos. O vídeo abaixo exemplifica como é possível animar um personagem em um jogo a partir de um algoritmo construído no Scratch.
 
 video::pljz7BdQAts[youtube, width=640, height=480, title="Exemplo de construção de algoritmos utilizando blocos com o editor Scratch (http://scratch.mit.edu)"]
+
+Para a animação do personagem, existem diversas imagens que são apresentadas ao longo do tempo, cada uma com o personagem em uma pose levemente diferente, como é possível perceber na figura abaixo. O algoritmo então se encarrega de realizar a troca das imagens com um determinado intervalo de tempo.
+
+image::animation-sprite.png[title="Método básico de animação de personagens em jogos: utilização de várias imagens com diferentes poses."]
+
+Criar programas a partir de fluxogramas e blocos é normalmente feito apenas na faze de aprendizagem. A partir do momento que você ganhar desenvoltura no escrita de algoritmos, verá que ferramentas como estas são bastante limitadas para serem utilizadas profissionalmente.
+
+Algortimos são comumente representados de forma textual, utilizando-se alguma linguagem de programação ou pseudo-código: uma linguagem fictícia, utilizada normalmente apenas para aprendizagem, e que pode ser baseada em um idioma como o português.
+
+Para a animação apresentada no vídeo acima, um trecho do algoritmo desenvolvido em blocos poderia ser escrito em pseudo-código como a demonstrado seguir. 
+
+
+```
+mostre imagem Run_000.png
+repita 9 vezes 
+{
+    mova 4 posições
+    mostre próxima imagem
+    aguarde 0.1 segundo 
+}
+
+repita 9 vezes 
+{
+    mostre próxima imagem
+    aguarde 0.1 segundo    
+}
+
+```
+
+Pseudo-códigos como apresentado acima podem ser escritos em uma pseudo-linguagem footnote:[Linguagem fictícia] como o https://pt.wikipedia.org/wiki/Portugol[Portugol]. Apesar de não ser uma linguagem "real" footnote:[Pseudo linguagens como Portugol não são utilizadas profissionalmente], existem algumas ferramentas que de fato geram programas a partir deste pseudo-código, como é o caso do http://lite.acad.univali.br/portugol/[Portugol Studio].
 
 == Links
 
@@ -94,8 +124,9 @@ video::pljz7BdQAts[youtube, width=640, height=480, title="Exemplo de construçã
 - https://msdn.microsoft.com/pt-br/library/befeaky0.aspx
 - https://en.wikibooks.org/wiki/C_Programming/Language_Reference#ANSI_C_.28C89.29.2FISO_C_.28C90.29
 - https://code.visualstudio.com
-- https://www.youtube.com/watch?time_continue=14&v=cwyRyZMTvBo
-- https://www.alice.org
+- https://youtu.be/cwyRyZMTvBo
+- http://lite.acad.univali.br/portugol/
+- https://pt.wikipedia.org/wiki/Portugol_Studio
 
 [bibliography]
 == References

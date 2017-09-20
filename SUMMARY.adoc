@@ -1,4 +1,4 @@
 = Índice
 
 . link:README.adoc[Introdução]
-. link:chapter1.adoc[O que é lógica de programação]
+. link:chapter1.adoc[Uma visão geral sobre programação]
