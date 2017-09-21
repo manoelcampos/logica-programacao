@@ -1,11 +1,3 @@
 {
-    "plugins": ["hints"],
-    "pluginsConfig": {
-        "hints": {
-            "info": "fa fa-info-circle",
-            "tip": "fa fa-mortar-board",
-            "danger": "fa fa-exclamation-cicle",
-            "working": "fa fa-wrench"
-        }
-    }
+    "plugins": ["asciidoc-admonition-icons"]
 }

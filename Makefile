@@ -11,7 +11,8 @@ install:
 	#Installs GitBook Client to make easier to generate
 	#the book in HTML or PDF instead of using the asciidoctor tool.
 	npm install gitbook-cli -g
-
+	gitbook install
+	
 slides:
 	bundle exec asciidoctor-revealjs "README.adoc" -o build/slides.html
 
