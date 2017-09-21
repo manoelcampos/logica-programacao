@@ -138,7 +138,11 @@ O vídeo abaixo é uma apresentação sobre a ferramenta Scratch (apresentada an
 
 video::Ok6LbV6bqaE[youtube, start="806", width=640, height=480, title="Aprender a elaborar algoritmos vai muito além de criar programas."]
 
-Aprender a programar 
+Aprender a programar lhe trará inúmeros benefícios tanto profissionalmente, como apresentado no vídeo acima, como na sua vida pessoal. Tendo que pensar em inúmeras possibilidades e cenários ao desenvolver algoritmos lhe fará uma pessoa mais observadora e crítica. 
+
+Com interesse, você começará a ver o mundo com outros olhos. Isto pode despertar seu espírito empreendedor, procurando identificar problemas em todo lugar. Por fim, se o Thomas (um garoto de 12 anos) pode, você também.
+
+video::Fkd9TWUtFm0[youtube, width=640, height=480, title="Um desenvolvedor de aplicativos de 12 anos de idade- (*Ative as legendas*)"]
 
 == Exercícios
 
