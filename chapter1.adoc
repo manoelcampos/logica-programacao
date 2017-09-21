@@ -129,14 +129,16 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 
 == Lições a serem tomadas
 
-Escrever algoritmos como os apresentados até agora é fácil. Mas de fato, criar algoritmos para resolver problemas reais como os vários apresentados ao longo do capítulo é desafiador. Mas com dedicação, qualquer pessoa pode aprender a desenvolver algoritmos.
-
-O vídeo abaixo é uma apresentação sobre a ferramenta Scratch (apresentada anteriormente), que é bastante utilizada para ensinar crianças a programar, principalmente pela criação de jogos. O vídeo abaixo inicia nos 13 minutos, mas vale a pena assistir do início. *Ative as legendas e veja as várias lições a serem aprendidas.*
-
-video::Ok6LbV6bqaE[youtube, start="13:26", width=640, height=480, title="Aprender a elaborar algoritmos vai muito além de criar programas."]
-
 "Quando você aprende a ler, você lê para aprender. Quando você aprende a programar, você programa para aprender."
 -- Mitch Resnick, Criador da ferramenta Scratch, utilizada para aprendizagem de programação.
+
+Escrever algoritmos como os apresentados até agora é fácil. Mas de fato, criar algoritmos para resolver problemas reais como os vários apresentados ao longo do capítulo é desafiador. Mas com dedicação, qualquer pessoa pode aprender a desenvolver algoritmos.
+
+O vídeo abaixo é uma apresentação sobre a ferramenta Scratch (apresentada anteriormente), que é bastante utilizada para ensinar crianças a programar, principalmente pela criação de jogos. O vídeo abaixo inicia nos 13 minutos, e conta um trecho da história de um garoto que estava aprendendo a criar jogos no Scratch. *Ative as legendas e veja as várias lições a serem aprendidas.*
+
+video::Ok6LbV6bqaE[youtube, start="906", width=640, height=480, title="Aprender a elaborar algoritmos vai muito além de criar programas."]
+
+Aprender a programar 
 
 == Exercícios
 
