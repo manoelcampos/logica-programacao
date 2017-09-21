@@ -16,6 +16,13 @@ video::TnFwOzylMtQ[youtube, width=640, height=480, title="Sistema autônomo de f
 
 video::ig54q0rG94s[youtube, width=640, height=480, title="Estacionamento autônomo de veículo, sem presença do motorista"]
 
+[NOTE]
+====
+Tecnologias como a utilizada em carros para o sistema de estacionamento autônomo normalmente começam com o desenvolvimento de algoritmos e testes em computadores convencionais. Um exemplo é http://rorchard.github.io/FuzzyJ/FuzzyTruck.html[este aplicativo] que permite estacionar um caminhão em uma vaga de garagem. Você pode brincar com o aplicativo, que pode ser acessado online no final da página indicada. 
+
+Clique em qualquer lugar do retângulo para reposicionar o caminhão, altere o "Truck Angle" para mudar o ângulo inicial do veículo, diminua o "Simulation Speed" e clique em "Go" para ver o sistema funcionando.
+====
+
 As instruções dadas a um programa de computador são organizadas como em uma lista de tarefas ou uma receita de bolo. Desenvolver um programa é como produzir um filme, onde você é o diretor/roteirista e o programa é um ator executando as instruções como definidas no roteiro. Muitas vezes o ator pode improvisar, assim como um programa pode tomar decisões autônomas, como no caso do exemplo dos veículos acima.
 
 Assim como o roteiro de um filme é escrito utilizando alguma linguagem natural como inglês ou português, o "roteiro" de um programa também, só que utilizando-se linguagens específicas chamadas *linguagens de programação*. Linguagens naturais muitas vezes causam ambiguidades e não são concisas. 
@@ -30,7 +37,7 @@ image::ambiguidade2.png[title="Ambibuidade na vida de um programador", link="htt
 | A multiplicidade de funcionalidades é realmente vantajosa para a comercialização do produto. | As várias funções do produto ajudarão nas vendas.
 |===
 
-As linguagems de programação são então utilizadas para tornar mais fácil a tarefa de desenvolver programas. Existem inúmeras linguagens de programação, com diversos níveis de complexidade, para as mais variadas finalidades. Linguagens naturais como alemão podem ser mais difíceis de aprender do que outras como inglês, elas foram evoluindo ao longo dos séculos, se adaptando a aspectos culturais e às necessidades da sociedade para tornar a comunicação mais eficiente. Palavras e expressões caem em desuso e novas expressões são incorporadas ao idioma. Determinados idiomas são derivados de outros, como por exemplo o português e espanhol que são derivados do latim. 
+As linguagems de programação são então utilizadas para tornar mais fácil a tarefa de desenvolver programas. Existem inúmeras linguagens de programação, com diversos níveis de complexidade, para as mais variadas finalidades. Linguagens naturais como alemão podem ser mais difíceis de aprender do que outras como inglês. Elas foram evoluindo ao longo dos séculos, se adaptando a aspectos culturais e às necessidades da sociedade para tornar a comunicação mais eficiente. Palavras e expressões caem em desuso e novas expressões são incorporadas ao idioma. Determinados idiomas são derivados de outros, como por exemplo o português e espanhol que são derivados do latim. 
 
 Tudo isso se aplica às linguagens de programação. Existem linguagens de https://en.wikipedia.org/wiki/List_of_programming_languages[A a Z], apesar de poucas delas serem amplamente utilizadas. O processo de aprendizagem de uma linguagem de programação é semelhante a de qualquer idioma: a partir do momento que se conhece uma determinada linguagem, para aprender outra será bem mais fácil, principalmente se esta for derivada da que você já conhece. 
 
@@ -87,10 +94,10 @@ Criar programas a partir de fluxogramas e blocos é normalmente feito apenas na 
 
 Algortimos são comumente representados de forma textual, utilizando-se alguma linguagem de programação ou pseudo-código: uma linguagem fictícia, utilizada normalmente apenas para aprendizagem, e que pode ser baseada em um idioma como o português.
 
-Para a animação apresentada no vídeo acima, um trecho do algoritmo desenvolvido em blocos poderia ser escrito em pseudo-código como a demonstrado seguir. 
+Para a animação apresentada no vídeo acima, um trecho do algoritmo desenvolvido em blocos poderia ser escrito em pseudo-código como demonstrado seguir. 
 
-
-```
+[source,title="Trecho de algoritmo para animação de personagem em jogo"]
+----
 mostre imagem Run_000.png
 repita 9 vezes 
 {
@@ -104,29 +111,29 @@ repita 9 vezes
     mostre próxima imagem
     aguarde 0.1 segundo    
 }
+----
 
-```
+Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem fictícia] como o https://pt.wikipedia.org/wiki/Portugol[Portugol]. Apesar de não ser uma linguagem "real" footnote:[Pseudo linguagens como Portugol não são utilizadas profissionalmente], existem algumas ferramentas que de fato geram programas a partir deste pseudo-código, como é o caso do http://lite.acad.univali.br/portugol[Portugol Studio].
 
-Pseudo-códigos como apresentado acima podem ser escritos em uma pseudo-linguagem footnote:[Linguagem fictícia] como o https://pt.wikipedia.org/wiki/Portugol[Portugol]. Apesar de não ser uma linguagem "real" footnote:[Pseudo linguagens como Portugol não são utilizadas profissionalmente], existem algumas ferramentas que de fato geram programas a partir deste pseudo-código, como é o caso do http://lite.acad.univali.br/portugol/[Portugol Studio].
+== Resumo
 
-== Links
+. *Lógica de programação* ensina os fundamentos para *desenvolvimento de programas*.
+. Programas convencionais só fazem aquilo que foram programados por humanos para fazer.
+. Desenvolver um programa é como escrever um *roteiro* de filme ou uma *receita* de bolo: um conjunto de *instruções* é definido para serem seguidos.
+. O "roteiro" para a elaboração de um programa é escrito utilizando-se linguagens específicas chamadas *linguagens de programação*.
+. Linguagens naturais como português geram ambiguidades e não são concisas.
+. Linguages de programação tornam mais fácil o desenvolvimento de programas.
+. Linguagens de programação são normalmente baseadas no inglês e também podem derivar umas das outras.
+. Existem inúmeras linguagens de programação, com os mais diversos níveis de complexidade e para as mais variadas finalidades.
+. O "roteiro" ou "receita" de um programa é formalmente chamado de *algoritmo*.
+. Algoritmos são elaborados para resolver um tipo de problema. A partir deles são criados programas.
+. Existem diversos problemas conhecidos que podem ser resolvidos por meio de algoritmos, como o Problema do Caixeiro Viajante, Problema da Mochila e outros.
+. Tais problemas, apesar de parecem bobos, tem aplicação várias aplicações no mundo real.
+. Algoritmos podem ser representados de diferentes maneiras: graficamente com o uso de *fluxogramas* e *blocos* ou por meio de *pseudo-código* ou *código* escrito em uma *linguagem de programação*.
 
-- https://kahoot.com
-- http://exercism.io
-- http://education.github.com
-- http://gitbook.com
-- https://pt.khanacademy.org
-- https://www.codecademy.com/pt
-- https://br.udacity.com/
-- https://www.edx.org
-- https://code.org
-- https://scratch.mit.edu
-- https://msdn.microsoft.com/pt-br/library/befeaky0.aspx
-- https://en.wikibooks.org/wiki/C_Programming/Language_Reference#ANSI_C_.28C89.29.2FISO_C_.28C90.29
-- https://code.visualstudio.com
-- https://youtu.be/cwyRyZMTvBo
-- http://lite.acad.univali.br/portugol/
-- https://pt.wikipedia.org/wiki/Portugol_Studio
+== Exercícios
+
+. Escreva um algoritmo em pseudo-código, contendo as instruções necessárias para um robô realizar a troca do pneu de um carro. Um algoritmo de exemplo 
 
 [bibliography]
 == References

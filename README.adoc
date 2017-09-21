@@ -6,12 +6,12 @@
 :safe: unsafe
 ifdef::env-github[]
 :outfilesuffix: .adoc
+endif::[]
 :caution-caption: :fire:
 :important-caption: :exclamation:
 :note-caption: :paperclip:
 :tip-caption: :bulb:
 :warning-caption: :warning:
-endif::[]
 
 - https://palmas.ifto.edu.br/index.php/component/content/article?id=225[Curso Superior de Sistemas para Internet]
 - http://www.ifto.edu.br[Instituto Federal de Educação, Ciência e Tecnologia do Tocantins]
