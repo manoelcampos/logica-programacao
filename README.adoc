@@ -1,6 +1,6 @@
 = Introdução
 :revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0
-:source-highlighter: coderay
+:source-highlighter: highlightjs
 :imagesdir: images
 :allow-uri-read:
 :safe: unsafe
