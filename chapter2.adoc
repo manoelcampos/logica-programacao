@@ -1,0 +1,16 @@
+= Introdução à programação usando a linguagem C
+
+O capítulo anterior apresentou vários detalhes sobre como desenvolver um programa. Já sabemos que é preciso criar um algoritmo, escrito em pseudo código ou alguma linguagem de programação (apesar de ser possível representar algoritmos utilizando-se fluxogramas e blocos). Existe um imenso número de linguagens, e escolher uma para iniciar não é uma tarefa fácil.
+
+Neste curso utilizaremos a linguagem denominada *C*. Esta é uma linguagem de propósito geral (utilizada para as mais diversas finalidades) e uma das mais utilizadas mundialmente, como pode ser constatado na https://www.tiobe.com/tiobe-index/[pesquisa anual feito pela empresa TIOBE]. Como C é uma linguagem usada desde 1972, ela inspirou muitas outras linguagens. Assim, ao aprender C, é bem mais fácil aprender qualquer outra linguagem moderna como Java, JavaScript, PHP, Objective-C (a primeira linguagem usada para desenvolver aplicativos para iPhone) e várias outras.
+
+NOTE: Você deve estar se perguntando o porquê da linguagem ser chamada C. Pois é isso mesmo que estava imaginando: havia uma linguagem chamada B antes. Apesar de B ter sido derivada de outra linguagem chamada BCPL, ela foi desenvolvida pela empresa Bell Labs (https://www.bell-labs.com[que existe até hoje]). Daí podem imaginar porque ela foi chamada de B, apesar de https://pt.wikipedia.org/wiki/B_(linguagem_de_programação)#Nome[contarem outra história] 🤥 <<C>>.
+
+== O que é preciso para criar programas em linguage C
+
+Para escrever algoritmos em C você precisa apenas de um editor de texto simples como o Bloco de Notas do Windows ou o GEdit (existente em muitas versões do Linux). No entanto, para gerar programas a partir de um algoritmo escrito em C você precisa de uma ferramenta adicional.
+
+[bibliography]
+== Referências
+
+- [[[C]]] Dennis M. Ritchie. The development of the C language. Bell Labs. 1993. https://www.bell-labs.com/usr/dmr/www/chist.pdf

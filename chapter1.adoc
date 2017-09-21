@@ -171,7 +171,7 @@ senão
 3) Compare o algoritmo que você desenvolveu com o de um colega e veja onde o seu algoritmo pode ser melhorar e onde o dele pode ser melhorado.
 
 [bibliography]
-== References
+== Referências
 
 - [[[TSP,1]]] Rajesh Matai, Surya Singh and Murari Lal Mittal. Traveling Salesman Problem: an Overview of Applications, Formulations, and Solution Approaches. InTech. 2010. http://doi.org/10.5772/12909
 - [[[KP,2]]] John J. Bartholdi, III. The Knapsack Problem. Springer. https://doi.org/10.1007/978-0-387-73699-0_2
