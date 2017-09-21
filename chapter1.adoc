@@ -142,7 +142,7 @@ Aprender a programar lhe trará inúmeros benefícios tanto profissionalmente, c
 
 Com interesse, você começará a ver o mundo com outros olhos. Isto pode despertar seu espírito empreendedor, procurando identificar problemas em todo lugar. Por fim, se o Thomas (um garoto de 12 anos) pode, você também.
 
-video::Fkd9TWUtFm0[youtube, width=640, height=480, title="Um desenvolvedor de aplicativos de 12 anos de idade- (*Ative as legendas*)"]
+video::Fkd9TWUtFm0[youtube, width=640, height=480, title="Um desenvolvedor de aplicativos de 12 anos de idade. (*Ative as legendas*)"]
 
 == Exercícios
 
