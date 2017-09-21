@@ -111,7 +111,7 @@ repita 9 vezes
 
 Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem fictícia] como o https://pt.wikipedia.org/wiki/Portugol[Portugol]. Apesar de não ser uma linguagem "real" footnote:[Pseudo linguagens como Portugol não são utilizadas profissionalmente], existem algumas ferramentas que de fato geram programas a partir deste pseudo-código, como é o caso do http://lite.acad.univali.br/portugol[Portugol Studio].
 
-== Resumo
+== Resumo do Capítulo
 
 . *Lógica de programação* ensina os fundamentos para *desenvolvimento de programas*.
 . Programas convencionais só fazem aquilo que foram programados por humanos para fazer.
@@ -127,9 +127,20 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 . Tais problemas, apesar de parecem bobos, tem aplicação várias aplicações no mundo real.
 . Algoritmos podem ser representados de diferentes maneiras: graficamente com o uso de *fluxogramas* e *blocos* ou por meio de *pseudo-código* ou *código* escrito em uma *linguagem de programação*.
 
+== Lições a serem tomadas
+
+Escrever algoritmos como os apresentados até agora é fácil. Mas de fato, criar algoritmos para resolver problemas reais como os vários apresentados ao longo do capítulo é desafiador. Mas com dedicação, qualquer pessoa pode aprender a desenvolver algoritmos.
+
+O vídeo abaixo é uma apresentação sobre a ferramenta Scratch (apresentada anteriormente), que é bastante utilizada para ensinar crianças a programar, principalmente pela criação de jogos. O vídeo abaixo inicia nos 13 minutos, mas vale a pena assistir do início. *Ative as legendas e veja as várias lições a serem aprendidas.*
+
+video::Ok6LbV6bqaE[youtube, start="13:26", width=640, height=480, title="Aprender a elaborar algoritmos vai muito além de criar programas."]
+
+"Quando você aprende a ler, você lê para aprender. Quando você aprende a programar, você programa para aprender."
+-- Mitch Resnick, Criador da ferramenta Scratch, utilizada para aprendizagem de programação.
+
 == Exercícios
 
-. Escreva um algoritmo em pseudo-código, contendo as instruções necessárias para um robô realizar a troca do pneu de um carro. Um algoritmo de exemplo para a troca de uma lâmpada é apresentado abaixo:
+1) Escreva um algoritmo em pseudo-código, contendo as instruções necessárias para um robô realizar a troca do pneu de um carro. Um algoritmo de exemplo para a troca de uma lâmpada é apresentado abaixo:
 
 .Algoritmo de troca de lâmpada
 [source,numbered]
@@ -148,6 +159,10 @@ senão
         Girar nova lâmpada no sentido horário
         Voltar para passo // <1>
 ----
+
+2) Tente identificar as falhas do seu algoritmo de troca de pneu, como as condições que você não verificou. Por exemplo, você verificou se o pneu reserva (chamado de step) não está vazio?
+
+3) Compare o algoritmo que você desenvolveu com o de um colega e veja onde o seu algoritmo pode ser melhorar e onde o dele pode ser melhorado.
 
 [bibliography]
 == References
