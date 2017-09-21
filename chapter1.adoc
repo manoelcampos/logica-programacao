@@ -132,20 +132,21 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 . Escreva um algoritmo em pseudo-código, contendo as instruções necessárias para um robô realizar a troca do pneu de um carro. Um algoritmo de exemplo para a troca de uma lâmpada é apresentado abaixo:
 
 .Algoritmo de troca de lâmpada
-[source, numbered]
+[source,numbered]
 ----
 Acionar interruptor
-Se a lâmpada acender então
+Se a lâmpada acender então // <1>
    Diga "A lâmpada está funcionando."
 senão
     Se já trocou a lâmpada então
         Chamar eletricista
+        Fim
     senão
         Girar lâmpada no sentido anti-horário
         Remover lâmpada antiga
         Colocar nova lâmpada
         Girar nova lâmpada no sentido horário
-        Voltar para passo 1.
+        Voltar para passo // <1>
 ----
 
 [bibliography]

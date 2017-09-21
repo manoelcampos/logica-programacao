@@ -1,3 +1,4 @@
 {
-    "plugins": ["asciidoc-admonition-icons"]
+    "plugins": ["asciidoc-admonition-icons"],
+    "language": "pt"
 }
