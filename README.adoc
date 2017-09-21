@@ -4,6 +4,8 @@
 :imagesdir: images
 :allow-uri-read:
 :safe: unsafe
+:listing-caption: Listing
+
 ifdef::env-github[]
 :outfilesuffix: .adoc
 :caution-caption: :fire:

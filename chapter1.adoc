@@ -100,17 +100,13 @@ Para a animação apresentada no vídeo acima, um trecho do algoritmo desenvolvi
 ----
 mostre imagem Run_000.png
 repita 9 vezes 
-{
     mova 4 posições
     mostre próxima imagem
     aguarde 0.1 segundo 
-}
 
 repita 9 vezes 
-{
     mostre próxima imagem
     aguarde 0.1 segundo    
-}
 ----
 
 Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem fictícia] como o https://pt.wikipedia.org/wiki/Portugol[Portugol]. Apesar de não ser uma linguagem "real" footnote:[Pseudo linguagens como Portugol não são utilizadas profissionalmente], existem algumas ferramentas que de fato geram programas a partir deste pseudo-código, como é o caso do http://lite.acad.univali.br/portugol[Portugol Studio].
@@ -133,7 +129,24 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 
 == Exercícios
 
-. Escreva um algoritmo em pseudo-código, contendo as instruções necessárias para um robô realizar a troca do pneu de um carro. Um algoritmo de exemplo 
+. Escreva um algoritmo em pseudo-código, contendo as instruções necessárias para um robô realizar a troca do pneu de um carro. Um algoritmo de exemplo para a troca de uma lâmpada é apresentado abaixo:
+
+.Algoritmo de troca de lâmpada
+[source, numbered]
+----
+Acionar interruptor
+Se a lâmpada acender então
+   Diga "A lâmpada está funcionando."
+senão
+    Se já trocou a lâmpada então
+        Chamar eletricista
+    senão
+        Girar lâmpada no sentido anti-horário
+        Remover lâmpada antiga
+        Colocar nova lâmpada
+        Girar nova lâmpada no sentido horário
+        Voltar para passo 1.
+----
 
 [bibliography]
 == References
