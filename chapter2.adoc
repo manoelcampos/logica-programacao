@@ -6,7 +6,7 @@ Neste curso utilizaremos a linguagem denominada *C*. Esta é uma linguagem de pr
 
 NOTE: Você deve estar se perguntando o porquê da linguagem ser chamada C. Pois é isso mesmo que estava imaginando: havia uma linguagem chamada B antes. Apesar de B ter sido derivada de outra linguagem chamada BCPL, ela foi desenvolvida pela empresa Bell Labs (https://www.bell-labs.com[que existe até hoje]). Daí podem imaginar porque ela foi chamada de B, apesar de https://pt.wikipedia.org/wiki/B_(linguagem_de_programação)#Nome[contarem outra história] 🤥 <<C>>.
 
-== O que é preciso para criar programas em linguage C
+== O que é preciso para criar programas em linguagem C
 
 Para escrever algoritmos em C você precisa apenas de um editor de texto simples como o Bloco de Notas do Windows ou o GEdit (existente em muitas versões do Linux). No entanto, para gerar programas a partir de um algoritmo escrito em C você precisa de uma ferramenta adicional.
 

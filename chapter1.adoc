@@ -124,8 +124,8 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 . O "roteiro" ou "receita" de um programa é formalmente chamado de *algoritmo*.
 . Algoritmos são elaborados para resolver um tipo de problema. A partir deles são criados programas.
 . Existem diversos problemas conhecidos que podem ser resolvidos por meio de algoritmos, como o Problema do Caixeiro Viajante, Problema da Mochila e outros.
-. Tais problemas, apesar de parecem bobos, tem aplicação várias aplicações no mundo real.
-. Algoritmos podem ser representados de diferentes maneiras: graficamente com o uso de *fluxogramas* e *blocos* ou por meio de *pseudo-código* ou *código* escrito em uma *linguagem de programação*.
+. Tais problemas, apesar de parecem bobos, tem várias aplicações no mundo real.
+. Algoritmos podem ser representados de diferentes maneiras: graficamente com o uso de *fluxogramas* e *blocos*; ou por meio de *pseudo-código* ou *código* escrito em uma *linguagem de programação*.
 
 == Lições a serem tomadas
 
