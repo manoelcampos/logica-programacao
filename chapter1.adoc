@@ -124,7 +124,7 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 . O "roteiro" ou "receita" de um programa é formalmente chamado de *algoritmo*.
 . Algoritmos são elaborados para resolver um tipo de problema. A partir deles são criados programas.
 . Existem diversos problemas conhecidos que podem ser resolvidos por meio de algoritmos, como o Problema do Caixeiro Viajante, Problema da Mochila e outros.
-. Tais problemas, apesar de parecem bobos, tem várias aplicações no mundo real.
+. Tais problemas, apesar de parecem bobos, têm várias aplicações no mundo real.
 . Algoritmos podem ser representados de diferentes maneiras: graficamente com o uso de *fluxogramas* e *blocos*; ou por meio de *pseudo-código* ou *código* escrito em uma *linguagem de programação*.
 
 == Lições a serem tomadas
@@ -134,13 +134,13 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 
 Escrever algoritmos como os apresentados até agora é fácil. Mas de fato, criar algoritmos para resolver problemas reais como os vários apresentados ao longo do capítulo é desafiador. Mas com dedicação, qualquer pessoa pode aprender a desenvolver algoritmos.
 
-O vídeo abaixo é uma apresentação sobre a ferramenta Scratch (apresentada anteriormente), que é bastante utilizada para ensinar crianças a programar, principalmente pela criação de jogos. O vídeo abaixo inicia nos 13 minutos, e conta um trecho da história de um garoto que estava aprendendo a criar jogos no Scratch. *Ative as legendas e veja as várias lições a serem aprendidas.*
+O vídeo abaixo é uma apresentação sobre a ferramenta Scratch, que é bastante utilizada para ensinar crianças a programar, principalmente pela criação de jogos. O vídeo inicia nos 13 minutos, e conta um trecho da história de um garoto que estava aprendendo a criar jogos no Scratch. *Ative as legendas e veja as várias lições a serem aprendidas.*
 
 video::Ok6LbV6bqaE[youtube, start="806", width=640, height=480, title="Aprender a elaborar algoritmos vai muito além de criar programas."]
 
-Aprender a programar lhe trará inúmeros benefícios tanto profissionalmente, como apresentado no vídeo acima, como na sua vida pessoal. Tendo que pensar em inúmeras possibilidades e cenários ao desenvolver algoritmos lhe fará uma pessoa mais observadora e crítica. 
+Aprender a programar lhe trará inúmeros benefícios tanto profissionalmente como na sua vida pessoal. Tendo que pensar em inúmeras possibilidades e cenários ao desenvolver algoritmos lhe fará uma pessoa mais observadora e crítica. 
 
-Com interesse, você começará a ver o mundo com outros olhos. Isto pode despertar seu espírito empreendedor, procurando identificar problemas em todo lugar. Por fim, se o Thomas (um garoto de 12 anos) pode, você também.
+Com interesse, você começará a ver o mundo com outros olhos. Isto pode despertar seu espírito empreendedor, procurando identificar problemas em todo lugar. Por fim, se o Thomas (um garoto de 12 anos) pode, você também pode.
 
 video::Fkd9TWUtFm0[youtube, width=640, height=480, title="Um desenvolvedor de aplicativos de 12 anos de idade. (*Ative as legendas*)"]
 
@@ -166,7 +166,7 @@ senão
         Voltar para passo // <1>
 ----
 
-2) Tente identificar as falhas do seu algoritmo de troca de pneu, como as condições que você não verificou. Por exemplo, você verificou se o pneu reserva (chamado de step) não está vazio?
+2) Tente identificar as falhas do seu algoritmo de troca de pneu, como as condições que você não verificou. Por exemplo, você verificou se o pneu reserva (o _step_) está vazio?
 
 3) Compare o algoritmo que você desenvolveu com o de um colega e veja onde o seu algoritmo pode melhorar e onde o dele pode ser melhorado.
 
