@@ -168,7 +168,7 @@ senão
 
 2) Tente identificar as falhas do seu algoritmo de troca de pneu, como as condições que você não verificou. Por exemplo, você verificou se o pneu reserva (chamado de step) não está vazio?
 
-3) Compare o algoritmo que você desenvolveu com o de um colega e veja onde o seu algoritmo pode ser melhorar e onde o dele pode ser melhorado.
+3) Compare o algoritmo que você desenvolveu com o de um colega e veja onde o seu algoritmo pode melhorar e onde o dele pode ser melhorado.
 
 [bibliography]
 == Referências

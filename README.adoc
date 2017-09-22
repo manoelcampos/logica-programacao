@@ -4,6 +4,7 @@
 :imagesdir: images
 :allow-uri-read:
 :safe: unsafe
+:numbered:
 :listing-caption: Listing
 
 ifdef::env-github[]

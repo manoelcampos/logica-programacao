@@ -2,5 +2,5 @@
 
 . link:README.adoc[Introdução]
 . link:chapter1.adoc[Uma visão geral sobre programação]
-. link:chapter2.adoc[Introdução à programação usando a linguagem C]
+. link:chapter2.adoc[Introdução à programação em C]
 . link:links.adoc[Links]
