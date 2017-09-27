@@ -64,6 +64,7 @@ video::SC5CX8drAtU[youtube, width=640, height=480, title="Problema do Caixeiro V
     ** *investimento no mercado financeiro*: considerando que tem-se uma determinada quantidade de dinheiro para investir, pode-se aplicar o problema da mochila para selecionar os melhores investimentos que conjuntamente aumentem os lucros, com o menor custo ou risco de investimento;
     ** *computação na nuvem*: aplicações como o Google Fotos permitem fazer o upload de fotos em smartphones para a nuvem, aplicando filtros e gerando vídeos automaticamente a partir das fotos enviadas. Diferente de aplicativos como o Instagram, filtros são aplicados automaticamente em fotos selecionadas, realizando o processamento do filtro nos computadores na nuvem e não no smartphone do usuário. O Google Fotos possui milhões de usuários, necessitando de milhares de computadores para processar as fotos. Como computadores tem capacidade limitada, o problema da mochila pode ser usado nestes contextos para selecionar adequadamente quais fotos serão processadas por quais computadores.
 
+[#representacao]
 === Representação de algoritmos
 
 Imagine que você é um programador e deseja programar um robô para testar e trocar lâmpadas na sua casa. Você precisará então elaborar um algoritmo para isto. Algoritmos podem ser representados de diversas maneiras. Uma maneira simples, e que facilita o entendimento, é por meio de fluxogramas como o da figura abaixo. 
