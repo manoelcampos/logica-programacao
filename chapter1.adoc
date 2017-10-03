@@ -207,7 +207,9 @@ Algumas aplicações reais <<KP>>:
 - *computação na nuvem*: distribuição de processamento com o Google Fotos
 endif::backend-revealjs[]
 
-ifndef::backend-revealjs[]
+ifdef::backend-revealjs[]
+== Representação de algoritmos
+
 endif::backend-revealjs[]
 
 [#representacao]
