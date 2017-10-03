@@ -1,5 +1,6 @@
-= Lógica de Programação utilizando linguagem C
+= Lógica de Programação em C
 :revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0
+:revealjs_slideNumber: true
 :source-highlighter: pygments
 :imagesdir: images
 :allow-uri-read:
@@ -30,6 +31,10 @@ endif::[]
 Aprender os fundamentos para desenvolvimento de *programas* para solucionar problemas cotidianos.
 Programas são executados em equipamentos como *computadores* e *smartphones*. Porém, atualmente podem ser encontrados em equipamentos footnote:[Equipamentos, dispositivos (ou _devices_ em inglês)] como: 
 
+ifdef::backend-revealjs[]
+== Objetivos
+endif::backend-revealjs[]
+
 - *televisores*: possibilitando interatividade dos telespectadores, fornecendo serviços de utilidade pública (como consulta de resultado das loterias e localização de postos de saúde), navegação na internet, jogos, etc;
 - https://pt.wikipedia.org/wiki/Veículo_aéreo_não_tripulado[drones]: para permitir controlar aeronaves não tripuladas por meio de controle remoto ou mesmo permitir que elas possam voar de forma autônoma sem intervenção humana. 
 
@@ -50,6 +55,25 @@ video::tmQpP_r9QsU[youtube, width=640, height=480, title="Balança Inteligente: 
 Pode-se ainda desenvolver jogos para vários dos equipamentos citados, além de consoles de video game como Playstation, X-Box e outros.
 
 Programas podem ser desenvolvidos como páginas de internet, para serem acessados a partir de um navegador em um smartphone, TV, computador, etc. Mas como já visto, podem ser criados como aplicações independentes para uso nestes mesmos dispositivos. 
+
+== Pré-requisitos
+
+Para aprender lógica de programação é preciso *foco*, *dedicação*, *proatividade* e *curiosidade*. Estas são características normalmente necessárias para desenvolver qualquer nova habilidade, desde uma habilidade motora como tocar um instrumento musical até aprender um novo idioma. Por falar em idiomas, você verá que saber algo de inglês ajuda bastante. 
+
+Apesar de não ser um pré-requisito, se ainda não sabe inglês, já passou da hora de iniciar os estudos. Aprender inglês ao longo do caminho abrirá um mundo de possibilidades em programação. Existem incontáveis materiais de altíssima qualidade disponíveis em inglês. Empresas como a https://www.coursera.org[Coursera] disponibilizam diversos cursos gratuitos, desenvolvidos por universidades conceituadas dos Estados Unidos como Stanford e MIT.
+
+== Metodologia
+Aulas expositivas e práticas em laboratório, com aplicação da teoria no desenvolvimento de pequenos projetos.
+
+== Plano do Curso
+
+== Método de Avaliação
+
+Para ser aprovado na disciplina o aluno precisa ter média igual ou superior a 6 e pelo menos 75% de presença.
+
+O aluno será avaliado pelas atividades realizadas em sala de aula e no ambiente virtual de aprendizagem, a soma delas contabilizando 10 pontos por bimestre. Será ainda aplicada 1 prova teórico-prática valendo 10 pontos. A Nota Final do aluno será calculada pela média aritmética das notas dos bimestres.
+
+Caso o aluno não consiga obter nota para aprovação, será aplicado um exame final teórico-prático que, se igual o superior a 6,0, substituirá a Nota Final.
  
 == Motivação 
 
@@ -75,23 +99,7 @@ Programação é essencial em todas as áreas da computação. Com o advento da 
 
 Por fim, profissionais que querem se manter atualizados em qualquer sub-area da informática devem ter conhecimento de programação.
 
-== Pré-requisitos
 
-Para aprender lógica de programação é preciso *foco*, *dedicação*, *proatividade* e *curiosidade*. Estas são características normalmente necessárias para desenvolver qualquer nova habilidade, desde uma habilidade motora como tocar um instrumento musical até aprender um novo idioma. Por falar em idiomas, você verá que saber algo de inglês ajuda bastante. 
-
-Apesar de não ser um pré-requisito, se ainda não sabe inglês, já passou da hora de iniciar os estudos. Aprender inglês ao longo do caminho abrirá um mundo de possibilidades em programação. Existem incontáveis materiais de altíssima qualidade disponíveis em inglês. Empresas como a https://www.coursera.org[Coursera] disponibilizam diversos cursos gratuitos, desenvolvidos por universidades conceituadas dos Estados Unidos como Stanford e MIT.
-
-== Metodologia
-
-== Plano do Curso
-
-== Método de Avaliação
-
-Para ser aprovado na disciplina o aluno precisa ter média igual ou superior a 6 e pelo menos 75% de presença.
-
-O aluno será avaliado pelas atividades realizadas em sala de aula e no ambiente virtual de aprendizagem, a soma delas contabilizando 10 pontos por bimestre. Será ainda aplicada 1 prova teórico-prática valendo 10 pontos. A Nota Final do aluno será calculada pela média aritmética das notas dos bimestres.
-
-Caso o aluno não consiga obter nota para aprovação, será aplicado um exame final teórico-prático que, se igual o superior a 6,0, substituirá a Nota Final.
 
 ifdef::backend-revealjs[]
 

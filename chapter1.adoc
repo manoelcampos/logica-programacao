@@ -1,12 +1,12 @@
 :imagesdir: images
 
-= Uma visão geral sobre lógica de programação
+== Uma visão geral sobre lógica de programação
 
 A lógica de programação é a disciplina que ensina os *fundamentos* para o desenvolvimento de programas em geral, a serem utilizados para as mais diversas finalidades e dispositivos, como apresentado no capítulo anterior.
 
 Programas são desenvolvidos visando um determinado objetivo, seja para resolução de problemas ou apenas entretenimento (como no caso dos jogos).
 
-== Como desenvolver programas
+=== Como desenvolver programas
 
 Pense em um programa como um robô: ele não faz nada que não tenha sido programado para fazer. Se ele faz algo que não era esperado de ser feito, é por motivo de falhas mecânicas ou falhas humanas ao programá-lo. Mesmo robôs que tomam decisões autônomas o fazem com base em análise de dados e instruções programadas por humanos. Por exemplo, sem precisar ir muito longe até os carros que dirigem sozinhos, atualmente temos carros convencionais guiados por pessoas que detectam a iminência de uma colisão e acionam o freio automaticamente. O veículo analisa dados como imagens de câmeras, velocidade do veículo e distância até um obstáculo. A partir de resultados de cálculos, o computador de bordo aciona os freios. Sem o conhecimento humano para desenvolver os programas utilizados pelo carro, nada disso seria possível. 
 
@@ -43,7 +43,7 @@ Tudo isso se aplica às linguagens de programação. Existem linguagens de https
 
 Linguagens de programação são em sua maioria derivadas do inglês. O aprendizado inclui vocabulário, gramática e outros detalhes. Felizmente, o vocabulário destas linguagens é extremamente sucinto, contendo apenas algumas dezenas de palavras.
 
-== Linguagens de programação e algoritmos
+=== Linguagens de programação e algoritmos
 
 Como já sabemos, programas são desenvolvidos a partir da escrita de um "roteiro" em uma *linguagem de programação* qualquer. Tal roteiro é denominado *algoritmo*. Ele é como uma redação, que precisa conter uma estrutura com começo, meio e fim. Ele deve seguir determinados padrões como pontuação e separação de parágrafos, tanto por questões de clareza e organização quanto para dar sentido ao texto.
 
