@@ -136,12 +136,12 @@ video::wek9VPTdMMM[youtube, width=640, height=480, title="Porteiro Eletrônico I
 == Motivação
 video::tmQpP_r9QsU[youtube, width=640, height=480, title="Balança Inteligente: mede peso, gordura corporal e conecta na Wi-Fi para enviar histórico para aplicativo"]
 
-endif::backend-revealjs[]
-
 == Motivação
 
 - Jogos para consoles como Playstation e X-Box
 - Páginas de Internet
+
+endif::backend-revealjs[]
 
 ifndef::backend-revealjs[]
 == Porque desenvolver programas 
