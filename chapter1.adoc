@@ -157,7 +157,7 @@ ifdef::backend-revealjs[]
 - Tal roteiro é denominado *algoritmo*. 
 
 == Linguagens de programação e algoritmos
-- Ele é como uma redação. 
+- Um algoritmo é como uma redação. 
 - Deve seguir determinados padrões:
     * por questões de clareza e organização; 
     * para dar sentido ao texto.
