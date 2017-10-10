@@ -53,6 +53,8 @@ Assim, criaremos alguns algoritmos para:
 - converter quilômetros para milhas (multiplica por 0.6)
 - converter milhas para quilômetros
 - calcular a área de um triângulo isósceles (que tem dois lados iguais): $$$área = \frac{base * altura}{2}$$
+- calcular o tempo necessário para viajar de uma cidade a outra, considerando a distância e a velocidade média de um veículo: tempo = distancia / velocidade
+- solicitar o nome das cidades do problema anterior e exibir resultado como: O tempo para viajar de Palmas a Porto Nacional a 100 KM/h é de 0,6 horas.
 
 [bibliography]
 == Referências
