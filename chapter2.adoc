@@ -2,13 +2,57 @@
 
 O capítulo anterior apresentou vários detalhes sobre como desenvolver um programa. Já sabemos que é preciso criar um algoritmo, escrito em pseudo código ou alguma linguagem de programação (apesar de ser possível representar algoritmos utilizando-se fluxogramas e blocos). Existe um imenso número de linguagens, e escolher uma para iniciar não é uma tarefa fácil.
 
-Neste curso utilizaremos a linguagem denominada *C*. Esta é uma linguagem de propósito geral (utilizada para as mais diversas finalidades) e uma das mais utilizadas mundialmente, como pode ser constatado na https://www.tiobe.com/tiobe-index/[pesquisa anual feito pela empresa TIOBE]. Como C é uma linguagem usada desde 1972, ela inspirou muitas outras linguagens. Assim, ao aprender C, é bem mais fácil aprender qualquer outra linguagem moderna como Java, JavaScript, PHP, Objective-C (a primeira linguagem usada para desenvolver aplicativos para iPhone) e várias outras.
+Neste curso utilizaremos a linguagem denominada *C*. Esta é uma linguagem de propósito geral (utilizada para as mais diversas finalidades) e uma das mais utilizadas mundialmente, como pode ser constatado na https://www.tiobe.com/tiobe-index/[pesquisa anual feita pela empresa TIOBE]. Como C é uma linguagem usada desde a década de 1970, ela inspirou muitas outras linguagens. Assim, ao aprender C, é bem mais fácil aprender qualquer outra linguagem moderna como Java, JavaScript, PHP, Objective-C (a primeira linguagem usada para desenvolver aplicativos para iPhone) e várias outras.
 
 NOTE: Você deve estar se perguntando o porquê da linguagem ser chamada C. Pois é isso mesmo que estava imaginando: havia uma linguagem chamada B antes. Apesar de B ter sido derivada de outra linguagem chamada BCPL, ela foi desenvolvida pela empresa Bell Labs (https://www.bell-labs.com[que existe até hoje]). Daí podem imaginar porque ela foi chamada de B, apesar de https://pt.wikipedia.org/wiki/B_(linguagem_de_programação)#Nome[contarem outra história] 🤥 <<C>>.
 
 == O que é preciso para criar programas em linguagem C
 
-Para escrever algoritmos em C você precisa apenas de um editor de texto simples como o Bloco de Notas do Windows ou o GEdit (existente em muitas versões do Linux). No entanto, para gerar programas a partir de um algoritmo escrito em C você precisa de uma ferramenta adicional.
+Para escrever algoritmos em C você precisa apenas de um editor de texto simples como o Bloco de Notas do Windows ou o GEdit (existente em muitas versões do Linux). No entanto, para gerar programas a partir de um algoritmo escrito em C você precisa do que chamados de compilador C. 
+
+IMPORTANT: Um compilador C é um software capaz de entender um algoritmo escrito em linguagem C e gerar um programa que pode ser executado por um computador. Sem o compilador, o algoritmo que você escreveu não tem utilidade alguma.
+
+Apesar de ser possível escrever algoritmos usando editores de texto simples como o Bloco de Notas do Windows, o recomendável é utilizar um editor de texto específico para a criação de algoritmos, pois ele terá uma série de recursos para auxiliar o processo de desenvolvimento de programas. As seções a seguir apresentam algumas ferramentas aconselhadas para serem utilizadas em Windows e Linux.
+
+=== Ferramentas para desenvolvimento de programas em C no Windows
+
+Se você deseja utilizar o Windows para criar programas em C, a forma mais simples é utilizando a ferramenta
+http://www.bloodshed.net/devcpp.html[DevC++]. Apesar do desenvolvimento da ferramenta ter sido abandonado e ela não ter uma interface gráfica bonita e moderna, é a forma mais simples de conseguir um editor e um compilador C, tudo junto, para sistema operacional Windows. O DevC++ permite escrever algoritmos em C e gerar programas a partir deles.
+
+=== Ferramentas para desenvolvimento de programas em C no Linux
+
+Se você é usuário de Linux, verá que desenvolver programas neste sistema operacional é mais simples que em Windows. Se você utiliza distribuições Linux como http://ubuntu.com[Ubuntu], abra a Central de Software a partir do menu e procure pelo CodeBlocks. Ele é um editor para escrita de algoritmos em diversas linguagens, incluindo C. Em distribuições Linux, normalmente o compilador C já está instalado por padrão.
+
+== Estrutura básica de um algoritmo em C
+
+Como vimos, para criar um programa é preciso escrever um algoritmo. Algoritmos são como uma redação, eles seguem uma determinada estrutura. Assim como para aprender um idioma precisamos estudar a estrutura dele, para uma linguagem de programação é o mesmo processo. Vamos iniciar mostrando a estrutura básica de um algoritmo em C, sem explicar o porquê de muitas coisas. Você irá desenvolvendo pequenos programas e os conceitos vão sendo introduzidos aos poucos ao longo do caminho. Então, vejamos qual a estrutura básica de um programa em C:
+
+.Estrutura básica de um algoritmo em C
+[source,c]
+----
+#include <stdio.h>
+
+void main()
+{
+    
+}
+----
+
+Por enquanto não se preocupe em entender esta estrutura e nem porque tem que ser assim. Você só precisa saber agora que algoritmos em C precisam dessa estrutura básica. Como você terá o papel de escrever as instruções do algoritmo para gerar um programa de computador, tais instruções devem ser normalmente escritas uma em cada linha, entre as chaves (caracteres *{* e *}*). Não é diferente de uma receita de bolo: cada passo a ser executado é indicado em uma linha.
+
+== Escrevendo nossos primeiros algoritmos
+
+Vimos no capítulo anterior que o funcionamento de um programa é dividido normalmente em 3 partes: entrada, processamento e saída.
+Tais partes precisam ser claramente definidas quando escrevemos um algoritmo, vamos então escrever alguns algoritmos para resolver problemas básicos. 
+
+Os programas que criaremos não terão uma interface gráfica com botões e imagens, semelhantes a páginas de internet ou aplicativos de celular. Eles serão aplicativos contendo apenas texto, executando em uma tela preta que chamamos de *terminal* ou *console*. Neste tipo de aplicação, o dispositivo de entrada mais comum é o teclado e o de saída o monitor.
+
+Assim, criaremos alguns algoritmos para:
+
+- solicitar o nome de uma pessoa e exibir uma mensagem de boas vindas
+- converter quilômetros para milhas (multiplica por 0.6)
+- converter milhas para quilômetros
+- calcular a área de um triângulo isósceles (que tem dois lados iguais): $$$área = \frac{base * altura}{2}$$
 
 [bibliography]
 == Referências

@@ -213,7 +213,7 @@ ifdef::backend-revealjs[]
 endif::backend-revealjs[]
 
 [#representacao]
-=== Representação de algoritmos
+== Representação de algoritmos
 
 Imagine que você é um programador e deseja programar um robô para testar e trocar lâmpadas na sua casa. Você precisará então elaborar um algoritmo para isto. Algoritmos podem ser representados de diversas maneiras. Uma maneira simples, e que facilita o entendimento, é por meio de fluxogramas como o da figura abaixo. 
 
@@ -260,6 +260,59 @@ repita 9 vezes
 
 Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem fictícia] como o https://pt.wikipedia.org/wiki/Portugol[Portugol]. Apesar de não ser uma linguagem "real" footnote:[Pseudo linguagens como Portugol não são utilizadas profissionalmente], existem algumas ferramentas que de fato geram programas a partir deste pseudo-código, como é o caso do http://lite.acad.univali.br/portugol[Portugol Studio].
 
+== Estrutura de um Algoritmo
+
+Imagine que você é o chefe em um departamento de uma empresa e você precisa que um de seus funcionários execute alguma tarefa, como comprar passagens aéreas para uma viagem de negócios. Para que o funcionário possa fazer isso, você deve fornecer alguns dados para ele. Por exemplo, você precisa informar para qual cidade você vai viajar e a data de ida e volta. Sem tais dados, o funcionário não terá como realizar a compra das passagens. Estes são dados essenciais para a realização da tarefa. 
+
+O funcionário precisará então usar tais dados para localizar as passagens aéreas mais adequadas para o chefe. Ele pode então utilizar o computador para pesquisar as passagens e encontrar o menor preço. 
+
+Por fim, depois que o funcionário escolheu quais as melhores passagens áreas, ele deve então informar ao chefe quais foram as passagens localizadas, horários dos voos e outros dados. 
+
+Observe que o processo descrito acima é dividido em 3 etapas que são denominadas:
+
+- *entrada*: o chefe informa as datas da viagem para o funcionário;
+- *processamento*: o funcionário usa o computador para localizar passagens aéreas mais baratas para as datas informadas;
+- *saída*: o funcionário informa o chefe sobre as passagens localizadas, horários, preços, etc.
+
+image::estrutura-algoritmo.png[title="Estrutura convencional de um algoritmo"]
+
+Da mesma forma, algoritmos normalmente possuem uma estrutura dividida nestas 3 partes. Eles são como uma redação contendo introdução, desenvolvimento e conclusão. Um programa então pode receber dados de entrada, executar operações com estes dados, e exibir um resultado para o usuário.
+
+É importante conhecer esta divisão ao construir algoritmos pois é uma forma de entender por onde começar e como conduzir o desenvolvimento. Você primeiro tem que pensar em quais entradas o usuário precisará informar ao programa. A entrada de dados é opcional e depende do problema que está sendo desenvolvido, mas normalmente os programas precisam de uma entrada de dados. 
+
+Após ter pensado em quais dados precisam ser passados para o programa, você deve continuar a escrita do seu algoritmo focando em como você escreverá a parte do algoritmo para processar os dados de entrada. Essa é a parte principal e normalmente mais complexa. O processamento é onde está a maior parte do trabalho de um programa. Esta parte é onde os problemas para os quais o problema foi desenvolvido serão resolvidos. 
+
+Por fim, após ter escrito a parte do algoritmo que vai processar os dados de entrada, já está quase tudo pronto. Basta agora exibir os resultados para o usuário. Esta é a saída de dados. Assim, você terá desenvolvido seu algoritmo.
+
+Se você relembar o Problema do Caixeiro Vijante, onde um programa deve encontrar a menor rota para visitar um conjunto de cidades, temos:
+
+- a lista de cidades a serem visitadas como *entrada*;
+- o programa *processa* essa lista para encontrar a melhor rota;
+- por fim, ele exibe a melhor rota encontrada, mostrando a ordem em que as cidades podem ser visitadas como *saída*.
+
+No caso de uma receita de bolo, temos o mesmo padrão: a entrada são os ingredientes, o processamento é a preparação do bolo, e a saída é o bolo pronto.
+
+.Entrada, processamento e saída ao executar uma receita de bolo (Fonte: http://web.liberty.k12.mo.us/hs/lhswebsite/klein/computer-literacy.html[web.liberty.k12.mo.us]).
+image::baking-system.jpg[link=http://web.liberty.k12.mo.us/hs/lhswebsite/klein/computer-literacy.html]
+
+Para cada etapa de um programa a ser criado, precisamos indicar no nosso algoritmo as instruções para que o programa faça o que pretendemos. Se desejarmos que o programa receba dados de entrada, precisamos utilizar comandos capazes de obter tais dados. 
+
+Se você já estudou introdução à ciência da computação, sabe que o computador tem diferentes https://pt.wikipedia.org/wiki/Entrada/saída[dispositivos de entrada e saída de dados], chamados de *periféricos*, como mostra a figura abaixo.
+
+.Dispositivos de Entrada/Saída (Fonte: https://www.thinglink.com/scene/725787867065876481[thinglink.com]).
+image::input-output-devices.gif[link="https://www.thinglink.com/scene/725787867065876481"]
+
+O teclado é o dispositivo mais utilizado para entrada de dados em um computador convencional (desktop ou notebook), além de outros como mouse, microfone, webcam, monitores touchscreen (sensível ao toque), pendrive, CD. Qualquer um desses dispositivos pode ser utilizado para enviar dados para um computador, para que sejam processados por um programa.
+
+O processador é responsável por processar os dados capturados por dispositivos de entrada, normalmente realizando cálculos e operações com os dados recebidos. Por exemplo, se uma foto em um pendrive foi utilizada como dado de entrada, tal foto pode ser convertida para preto e branco na fase de processamento.
+
+.Conversão de imagem para preto e branco (Fonte: https://coderwall.com/p/kc2ftg/css3-filters--2[coderwall.com]).
+image::grayscale.jpg[link=https://coderwall.com/p/kc2ftg/css3-filters--2]
+
+Dispositivos de saída como monitor, impressora, pendrive e CD podem ser utilizados para exibir os dados depois de processados. A foto em preto e branco exibida no monitor seria um exemplo de saída. No entanto, no lugar de automaticamente exibir a foto, ela poderia simplesmente ser salva em um arquivo num pendrive.
+
+TIP: Observe que há dispositivos que podem funcionar como entrada ou saída, como é o caso de minotores touchscreen, pendrives e CDs.
+
 == Resumo do Capítulo
 
 . *Lógica de programação* ensina os fundamentos para *desenvolvimento de programas*.
@@ -275,6 +328,7 @@ Pseudo-códigos podem ser escritos em uma pseudo-linguagem footnote:[Linguagem f
 . Existem diversos problemas conhecidos que podem ser resolvidos por meio de algoritmos, como o Problema do Caixeiro Viajante, Problema da Mochila e outros.
 . Tais problemas, apesar de parecem bobos, têm várias aplicações no mundo real.
 . Algoritmos podem ser representados de diferentes maneiras: graficamente com o uso de *fluxogramas* e *blocos*; ou por meio de *pseudo-código* ou *código* escrito em uma *linguagem de programação*.
+. Estrutura de um algoritmo. Dispositivos de entrada e saída.
 
 == Lições a serem tomadas
 
@@ -322,5 +376,5 @@ senão
 [bibliography]
 == Referências
 
-- [[[TSP,1]]] Rajesh Matai, Surya Singh and Murari Lal Mittal. Traveling Salesman Problem: an Overview of Applications, Formulations, and Solution Approaches. InTech. 2010. http://doi.org/10.5772/12909
-- [[[KP,2]]] John J. Bartholdi, III. The Knapsack Problem. Springer. https://doi.org/10.1007/978-0-387-73699-0_2
+- [[[TSP]]] Rajesh Matai, Surya Singh and Murari Lal Mittal. Traveling Salesman Problem: an Overview of Applications, Formulations, and Solution Approaches. InTech. 2010. http://doi.org/10.5772/12909
+- [[[KP]]] John J. Bartholdi, III. The Knapsack Problem. Springer. https://doi.org/10.1007/978-0-387-73699-0_2
