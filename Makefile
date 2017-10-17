@@ -24,5 +24,5 @@ pdf:
 
 clean:
 	rm -rf "html"
-	rm book.pdf
-	rm slides.html
+	rm -f book.pdf
+	rm -f slides.html
