@@ -24,5 +24,7 @@ int main(){
 	float milhas;
 	
 	milhas = km * 0.6;
-	printf("O valor em milhas é %f", milhas);
+	printf("O valor em milhas é %.2f", milhas);
+
+	return 0;
 }

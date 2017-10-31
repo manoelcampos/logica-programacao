@@ -1,5 +1,6 @@
 = Introdução
-:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0
+:revealjsdir: reveal.js
+// :revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0
 :revealjs_slideNumber: true
 :source-highlighter: highlightjs
 :imagesdir: images
@@ -215,5 +216,6 @@ endif::backend-revealjs[]
 ifdef::backend-revealjs[]
 
 include::chapter1.adoc[]
+include::chapter2.adoc[]
 
 endif::backend-revealjs[]

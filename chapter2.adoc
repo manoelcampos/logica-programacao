@@ -17,7 +17,7 @@ Apesar de ser possível escrever algoritmos usando editores de texto simples com
 === Ferramentas para desenvolvimento de programas em C no Windows
 
 Se você deseja utilizar o Windows para criar programas em C, a forma mais simples é utilizando a ferramenta
-http://www.bloodshed.net/devcpp.html[DevC++]. Apesar do desenvolvimento da ferramenta ter sido abandonado e ela não ter uma interface gráfica bonita e moderna, é a forma mais simples de conseguir um editor e um compilador C, tudo junto, para sistema operacional Windows. O DevC++ permite escrever algoritmos em C e gerar programas a partir deles.
+http://www.bloodshed.net/devcpp.html[pass:[DevC++]]. Apesar do desenvolvimento da ferramenta ter sido abandonado e ela não ter uma interface gráfica bonita e moderna, é a forma mais simples de conseguir um editor e um compilador C, tudo junto, para sistema operacional Windows. O pass:[DevC++] permite escrever algoritmos em C e gerar programas a partir deles.
 
 === Ferramentas para desenvolvimento de programas em C no Linux
 
@@ -47,14 +47,63 @@ Tais partes precisam ser claramente definidas quando escrevemos um algoritmo, va
 
 Os programas que criaremos não terão uma interface gráfica com botões e imagens, semelhantes a páginas de internet ou aplicativos de celular. Eles serão aplicativos contendo apenas texto, executando em uma tela preta que chamamos de *terminal* ou *console*. Neste tipo de aplicação, o dispositivo de entrada mais comum é o teclado e o de saída o monitor.
 
-Assim, criaremos alguns algoritmos para:
+=== Obtendo dados de entrada
 
-- solicitar o nome de uma pessoa e exibir uma mensagem de boas vindas
-- converter quilômetros para milhas (multiplica por 0.6)
-- converter milhas para quilômetros
-- calcular a área de um triângulo isósceles (que tem dois lados iguais): $$$área = \frac{base * altura}{2}$$
-- calcular o tempo necessário para viajar de uma cidade a outra, considerando a distância e a velocidade média de um veículo: tempo = distancia / velocidade
-- solicitar o nome das cidades do problema anterior e exibir resultado como: O tempo para viajar de Palmas a Porto Nacional a 100 KM/h é de 0,6 horas.
+O primeiro algoritmo que escreveremos será para criar um programa que solicite o nome de uma pessoa e exiba uma mensagem de boas vindas. Primeiro temos que identificar quais são as entradas que o programa precisa obter. Tais entradas podem variar de nenhuma a várias. Aqui, já indicamos que o programa deve solicitar o nome do usuário. Neste caso, esta é a nossa única entrada. Como informamos que o usuário deverá digitar o nome, tal dado será obtido a partir do teclado. 
+
+Dados utilizados por um programa são inicialmente armazenados na memória RAM do computador. Para que um programa possa armazenar e obter dados da RAM, é necessária incluir no algoritmo o que chamamos de *declaração de variáveis*. Ao declarar uma variável, estamos indicando que nosso programa precisa de um determinado espaço na memória RAM para ele manipular algum dado como o nome de uma pessoa, seja ele um dado de entrada ou não.
+
+*Variáveis* é um termo que já conhecemos da matemática. Uma variável 
+
+- possue um *nome* que costumávemos chamar de a, b ou c ou ainda x, y ou z;
+- e o *conjunto* ao qual ela pertence, que indica que valores podem ser associados (atribuídos, armazenados) a ela.
+
+Para calcular a área de um retângulo usamos a equação `área = base x altura`. Área, base e altura são variáveis que representam números. Normalmente definíamos que tais variáveis são do conjunto dos números reais ou inteiros.
+
+Na computação, uma variável também terá as mesmas características:
+
+- um *nome*, mas que normalmente não deve ter apenas uma letra como a, b ou c, mas sim um nome significativo como base ou altura. Tal nome pode até mesmo ser formado por várias palavras, como veremos mais adiante.
+- um *tipo*, que representa o conjunto ao qual a variável pertence.
+
+Podemos ver que utilizamos o termo *tipo* como sinônimo de *conjunto*. Além disso, temos muito mais tipos do que apenas numéricos como números naturais, inteiros e reais.
+
+Agora sabemos que o nome que precisamos obter como entrada será uma variável. No caso do nome, nosso único dado de entrada, ele é um dado alfabético: é formado por letras. Assim, identificamos o tipo da nossa variável. Em linguagem C, o tipo de variável que permite armazenar letras (inclusive números e qualquer caractere do teclado) é o `char`. 
+
+No entanto, como o nome possui mais de um caractere, precisamos indicar quantos caracteres no máximo poderão ser armazenados (por exemplo, 50 caracteres). O código abaixo então apresenta a declaração da nossa primeira variável, chamada `nome`.
+
+[source,c]
+----
+#include <stdio.h>
+
+int main(){
+    char nome[50]; 
+}
+----
+
+O local mais comum de declaração de variáveis em C é dentro das chaves que delimitam o início e fim do algoritmo. A estrutura para declaração deve seguir o formato `nome_da_variavel tipo;`
+
+Existem algumas restrições que devem ser observadas ao dar nomes à variáveis em C e na grande maioria das linguagens. A primeira delas é que não pode haver acentos ou espaços. A variável que declaramos é chamada de `nome` e o tipo é `char`. No entanto, como nossa variável vai armazenar até 50 caracteres, tivemos que indicar isso incluindo a quantidade máxima de caracteres entre colchetes: `[50]`.
+
+[source,c]
+----
+#include <stdio.h>
+
+int main(){
+    char nome[50]; 
+
+    printf("Digite seu primeiro nome: ");  
+    scanf("%s", nome); 
+   
+    char sobrenome[100];
+    printf("Digite seu sobrenome: ");
+    scanf("%s", sobrenome);
+
+    printf("\nBem vindo %s %s\n", nome, sobrenome);    
+    printf("Obrigado pro se cadastrar em nosso aplicativo.");
+}
+----
+
+O código completo e comentado está disponível no arquivo link:programas/001_boas_vindas.c[001_boas_vindas.c].
 
 [bibliography]
 == Referências
