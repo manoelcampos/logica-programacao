@@ -1,17 +1,25 @@
 
+== Exercícios 1
+
 - converter quilômetros para milhas (multiplica por 0.6)
 - converter milhas para quilômetros 
 - calcular a área de um triângulo isósceles (que tem dois lados iguais): $$$área = \frac{base * altura}{2}$$
 - calcular o tempo necessário para viajar de uma cidade a outra, considerando a distância e a velocidade média de um veículo
 - solicitar o nome das cidades do problema anterior e exibir resultado como: O tempo para viajar de Palmas a Porto Nacional a 100 KM/h é de 0,6 horas.
-
 - considerando que o custo do kWh (Quilowatt/hora) de consumo de energia é R$ 0.54, solicitar o total de energia gasto e exibir o valor da conta.
+
+
+== Exercícios 2
 - converter um valor em Reais para Dólares
 - converter um valor em Dólares para Reais
 
-- Crie um programa para calcular o Índice de Massa Corporal (IMC) de uma pessoa, utilizando a fórmula `peso / altura^2`. O IMC é um método muito simples para indicar se uma pessoa está obesa ou não.
+== Exercícios 3
 
-- No program anterior, calculamos o IMC de uma pessoa. Porém, este valor sozinho não tem utilidade alguma. Altere tal programa para exibir qual o grau de obesidade da pessoa, de acordo com a tabela abaixo:
+=== IMC
+Crie um programa para calcular o Índice de Massa Corporal (IMC) de uma pessoa, utilizando a fórmula `peso / altura^2`. O IMC é um método muito simples para indicar se uma pessoa está obesa ou não.
+
+=== Tabela IMC
+No program anterior, calculamos o IMC de uma pessoa. Porém, este valor sozinho não tem utilidade alguma. Altere tal programa para exibir qual o grau de obesidade da pessoa, de acordo com a tabela abaixo:
 
 .https://pt.wikipedia.org/wiki/Índice_de_massa_corporal[Classificação de Obesidade de acordo com IMC.]
 [%header]
@@ -27,7 +35,8 @@
 |> 40	     | Obesidade Grau III (mórbida)
 |===
 
-- IMC é um método que qualquer pessoa pode utilizar para rastrear seu nível de obesidade. Mesmo que o resultado do IMC não indique obesidade, isto não indica que o saúde da pessoa esteja bem. Muitos outros fatores são levados em consideração e somente um médico poderá confirmar seu estado de saúde. No entanto, outros métodos dão algumas informações adicionais para a pessoa verificar se precisa procurar ajuda de um profissional. O https://health.nokia.com/blog/2012/10/12/what-is-a-healthy-body-fat-percentage-lean-to-fat-ratio-2/[percentual de massa gorda] é outro indicativo de saúde. Para homens, ele deve estar entre 15 e 18% e para mulheres entre
+=== Percentual de Massa Gorda
+IMC é um método que qualquer pessoa pode utilizar para rastrear seu nível de obesidade. Mesmo que o resultado do IMC não indique obesidade, isto não indica que o saúde da pessoa esteja bem. Muitos outros fatores são levados em consideração e somente um médico poderá confirmar seu estado de saúde. No entanto, outros métodos dão algumas informações adicionais para a pessoa verificar se precisa procurar ajuda de um profissional. O https://health.nokia.com/blog/2012/10/12/what-is-a-healthy-body-fat-percentage-lean-to-fat-ratio-2/[percentual de massa gorda] é outro indicativo de saúde. Para homens, ele deve estar entre 15 e 18% e para mulheres entre
 22 e 25%.
 
 Altere o programa anterior para solicitar os devidos dados e informar, além do IMC, a situação da massa gorda de acordo com a tabela abaixo.
@@ -41,5 +50,6 @@ Altere o programa anterior para solicitar os devidos dados e informar, além do 
 |        >= 32%      | >= 25%  | Obeso 
 |===
 
+== Exercícios 4
 - solicitar um ano e indicar se ele é bissexto
 - solicitar o ano de nascimento de uma pessoa, calcular a idade e verificar se a pessoa é maior de idade ou não
