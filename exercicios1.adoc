@@ -21,7 +21,7 @@ Utiliza cálculos básicos.
 Utiliza cálculos básicos e estrutura de seleção `if` (uso de condicionais). 
 
 === IMC
-Crie um programa para calcular o Índice de Massa Corporal (IMC) de uma pessoa, utilizando a fórmula `peso / altura^2`. O IMC é um método muito simples para indicar se uma pessoa está obesa ou não.
+Crie um programa para calcular o Índice de Massa Corporal (IMC) de uma pessoa, utilizando a fórmula $$ peso / altura^2 $$. O IMC é um método muito simples para indicar se uma pessoa está obesa ou não.
 
 === Tabela IMC
 No program anterior, calculamos o IMC de uma pessoa. Porém, este valor sozinho não tem utilidade alguma. Altere tal programa para exibir qual o grau de obesidade da pessoa, de acordo com a tabela abaixo:
