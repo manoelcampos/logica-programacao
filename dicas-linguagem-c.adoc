@@ -45,12 +45,18 @@ include::programas/multiplas_chaves.c[]
 
 O `;` (ponto-e-vírgula) é usado para indicar o fim de uma instrução, ou seja, de um comando que executa algo. Um comando pode ser:
 
-- declaração de uma variável: `float x, y;`
-- chamada de uma função como printf e scanf: `printf("Bom dia");`
-- atribuição de uma valor a uma variável: `x = y + 10;`
-- interrupção de um laço de repetição com o comando break: `break;`
-- separação da inicialização, condição e incremento em um laço de repetição for: `for(int i = 0; i < 10; i++)`
-- retorno de um valor para uma função: `return 0;`
+- declaração de uma variável: 
+    * `float x, y;`
+- chamada de uma função como printf e scanf: 
+    * `printf("Bom dia");`
+- atribuição de uma valor a uma variável: 
+    * `x = y + 10;`
+- interrupção de um laço de repetição com o comando break: 
+    * `break;`
+- separação da inicialização, condição e incremento em um laço de repetição for: 
+    * `for(int i = 0; i < 10; i++)`
+- retorno de um valor para uma função: 
+    * `return 0;`
 
 == Proibição do uso de ponto-e-vírgula
 
