@@ -3,5 +3,6 @@
 . link:README.adoc[Introdução]
 . link:chapter1.adoc[Uma visão geral sobre programação]
 . link:chapter2.adoc[Introdução à programação em C]
-. link:exercicios.adoc[Exercícios]
+. link:exercicios1.adoc[Lista de Exercícios 1]
+. link:exercicios2.adoc[Lista de Exercícios 2]
 . link:links.adoc[Links]

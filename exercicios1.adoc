@@ -1,19 +1,24 @@
+== Conversão de unidades e cálculos básicos
 
-== Exercícios 1
+Utiliza cálculos básicos.
 
 - converter quilômetros para milhas (multiplica por 0.6)
 - converter milhas para quilômetros 
 - calcular a área de um triângulo isósceles (que tem dois lados iguais): $$$área = \frac{base * altura}{2}$$
 - calcular o tempo necessário para viajar de uma cidade a outra, considerando a distância e a velocidade média de um veículo
-- solicitar o nome das cidades do problema anterior e exibir resultado como: O tempo para viajar de Palmas a Porto Nacional a 100 KM/h é de 0,6 horas.
+- solicitar o nome das cidades do problema anterior e exibir resultado como, por exemplo, "O tempo para viajar de Palmas a Porto Nacional a 100 KM/h é de 0,6 horas".
 - considerando que o custo do kWh (Quilowatt/hora) de consumo de energia é R$ 0.54, solicitar o total de energia gasto e exibir o valor da conta.
 
+== Conversão de moedas
 
-== Exercícios 2
+Utiliza cálculos básicos.
+
 - converter um valor em Reais para Dólares
 - converter um valor em Dólares para Reais
 
-== Exercícios 3
+== Classificação de obsesidade
+
+Utiliza cálculos básicos e estrutura de seleção `if` (uso de condicionais). 
 
 === IMC
 Crie um programa para calcular o Índice de Massa Corporal (IMC) de uma pessoa, utilizando a fórmula `peso / altura^2`. O IMC é um método muito simples para indicar se uma pessoa está obesa ou não.
@@ -32,7 +37,7 @@ No program anterior, calculamos o IMC de uma pessoa. Porém, este valor sozinho 
 |25 a < 30   |	Sobrepeso
 |30 a < 35   |	Obesidade Grau I
 |35 a < 40   |	Obesidade Grau II (severa)
-|> 40	     | Obesidade Grau III (mórbida)
+|> 40	     |  Obesidade Grau III (mórbida)
 |===
 
 === Percentual de Massa Gorda
@@ -45,11 +50,8 @@ Altere o programa anterior para solicitar os devidos dados e informar, além do 
 [%header]
 |===
 | % Gordura Mulheres | % Gordura Homens | Classificação 
-|        21-24%      | 14-17%  | Em forma 
-|        25-31%      | 18-24%  | Na média 
-|        >= 32%      | >= 25%  | Obeso 
+|         < 21%      |  < 14%           | Abaixo do peso 
+|        21-24%      | 14-17%           | Em forma 
+|        25-31%      | 18-24%           | Na média 
+|        >= 32%      | >= 25%           | Obeso 
 |===
-
-== Exercícios 4
-- solicitar um ano e indicar se ele é bissexto
-- solicitar o ano de nascimento de uma pessoa, calcular a idade e verificar se a pessoa é maior de idade ou não

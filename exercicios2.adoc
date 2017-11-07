@@ -1,0 +1,47 @@
+:imagesdir: images
+
+== Cálculos utilizando ano
+
+Utiliza cálculos básicos e estrutura de selação `if`
+
+- solicitar um ano e indicar se ele é bissexto
+- solicitar o ano de nascimento de uma pessoa, calcular a idade e verificar se a pessoa é maior de idade ou não
+
+
+== Cálculos básicos e percentual
+
+- determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida e o total de combustível gasto.
+- solicitar o nome de um vendedor, o seu salário base e o valor total de vendas efetuadas por ele no mês. Sabendo que este vendedor ganha 15% de comissão sobre suas vendas, exibir como resultado uma frase como "O vendedor Manoel contabilizou R$ 500,00 em vendas. Seu salário base é de R$ 900,00. A comissão de 15% corresponde a R$ 135,00. O salário bruto do vendedor é de R$ 1035,00".
+- Uma loja compra seus produtos e os revende com uma margem de lucro de 20%. Solicite o nome do produto, o valor de compra e informe qual o preço de venda do produto.
+
+== Custo de um veículo
+.Impostos sobre veículos (Fonte/Imagem: http://www.gazetadopovo.com.br/automoveis/confira-como-seriam-os-precos-dos-carros-mais-vendidos-no-brasil-sem-os-impostos-3jurbj4ciz42bsng7412a50ua[Gazeta do Povo])
+image::impostos-veiculos.jpg[]
+
+O preço que um consumidor paga por um carro novo é:
+
+- a soma do preço de fábrica acrescido dos impostos;
+- mais a margem de lucro do distribuidor sobre o preço com os impostos. 
+
+Considere apenas os impostos básicos:
+
+- 12% de ICMS (Imposto sobre Circulação de Mercadorias e Serviços)
+- 11% de IPI (Imposto sobre Produtos Industrializados) 
+- 1,65% de PIS
+- 7,60% de COFINS (Contribuição para o Financiamento da Seguridade Social)
+
+Com uma margem de luco do distribuidor de 28%, escreva um algoritmo que  solicite o preço de fábrica de um carro e informe o preço final ao consumidor.  
+
+== Troca de valores e maior/menor valor digitado
+
+.Trocando valores de variáveis (Imagem: https://www.amara.com/products/water-wine-carafe-oak-base[amara.com])
+image::water-wine.png[]
+
+Tendo duas variáveis `a` e `b`, a troca de valores entre essas duas variáveis é algo simples mas bastante utilizado em computação, principalmente quando deseja-se ordenar valores dentro de variáveis.
+
+Considerando isso, desenvolva os algoritmos a seguir.
+
+- solicite os valores para duas variáveis `a` e `b` e troque os valores de tais variáveis, colocando o conteúdo de `b` em `a` e vice-versa. Imagine que as variáveis são copos contendo água e vinho. Como você faria para trocar o conteúdo de um copo para o outro sem misturar os dois?
+- solicite que o usuário digite dois números quaisquer para as variáveis `a` e `b`. Se os valores não tiverem sido digitados em ordem crescente, troque os valores de tais variáveis, de modo que o menor valor seja armazenado em `a` e o maior em `b`.
+- solicite ao usuário que digite 3 números e informe o maior dos 3.
+- solicite ao usuário que digite 3 números e informe o menor e o maior dos 3.
