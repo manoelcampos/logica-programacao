@@ -7,7 +7,6 @@ Utiliza cálculos básicos e estrutura de selação `if`
 - solicitar um ano e indicar se ele é bissexto
 - solicitar o ano de nascimento de uma pessoa, calcular a idade e verificar se a pessoa é maior de idade ou não
 
-
 == Cálculos básicos e percentual
 
 - determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida e o total de combustível gasto.

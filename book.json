@@ -1,5 +1,5 @@
 {
-    "plugins": ["asciidoc-admonition-icons", "disqus", "mathjax"],
+    "plugins": ["asciidoc-admonition-icons", "disqus", "mathjax", "asciidoc-include@0.1.8"],
     "language": "pt",
     "pluginsConfig": {
         "disqus": {
