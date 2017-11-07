@@ -1,0 +1,121 @@
+:imagesdir: images
+
+Este capítulo apresenta algumas dicas de como escrever algoritmos em linguagem C.
+
+== Uso de Chaves
+
+As chaves devem ser usadas obrigatoriamente para delimitar um bloco de código. Por exemplo, elas são usadas para indicar o início e fim de um algoritmo em C, após a declaração da função `main()`, como mostrado a seguir:
+
+[source,c]
+----
+include::programas/chaves_main.c[]
+----
+
+Além disso, as chaves são usadas para criar blocos de código. Tais blocos podem representar um algoritmo (como no caso de funções como a `main`), um código que será executado somente se determinada condição for verdadeira (como no caso de estruturas `if`) ou que será executado repetidas vezes (como no caso de um laço de repetição como o `for`).
+
+Assim, estruturas de seleção (`if`, `else` e `switch`), laços de repetição (`for`, `while` e `do`) e funções devem ter chaves.
+
+No caso de funções, as chaves são obrigatórias. Nos outros casos, independentemente de quantas linhas de código existam dentro de tais estruturas, é uma boa prática de programação sempre incluir chaves. Isto evita seu algoritmo de se comportar de forma inesperada.
+
+O exemplo abaixo mostra o uso de chaves para uma estrutura como o `if`.
+Observe que as chaves foram abertas na linha após o `if`. Isso torna mais fácil visualizar o alinhamento entre o abre e o fecha chaves. O mesmo foi feito para o `else`.
+
+[source,c]
+----
+include::programas/chaves.c[]
+----
+
+== Identação de código
+
+Sempre que forem abertas chaves, todo o código dentro das chaves devem ficar mais à direita destas. Algoritmos em C iniciam com a criação da função `main()`. Como toda função requer chaves, todo o código dentro de tais chaves devem estar mais à direita delas, como mostra o exemplo abaixo.
+
+[source,c]
+----
+include::programas/chave_unica.c[]
+----
+
+Cada vez que abrirmos novas chaves, todo o código dentro de tais chaves deve estar mais à direta destas. A forma mais fácil para visualizar isso é abrir as chaves na linha de baixo da estrutura que a abriu, no lugar de abrir as chaves no final de tal linha. Veja exemplo a seguir, onde é incluída uma estrutura `if` seguida de uma `else`. Como para cada uma usamos chaves, o código dentro de cada um desses blocos fica mais à direta das chaves deles.
+
+[source,c]
+----
+include::programas/multiplas_chaves.c[]
+----
+
+== Uso de ponto-e-vírgula
+
+O `;` (ponto-e-vírgula) é usado para indicar o fim de uma instrução, ou seja, de um comando que executa algo. Um comando pode ser:
+
+- declaração de uma variável: `float x, y;`
+- chamada de uma função como printf e scanf: `printf("Bom dia");`
+- atribuição de uma valor a uma variável: `x = y + 10;`
+- interrupção de um laço de repetição com o comando break: `break;`
+- separação da inicialização, condição e incremento em um laço de repetição for: `for(int i = 0; i < 10; i++)`
+- retorno de um valor para uma função: `return 0;`
+
+== Proibição do uso de ponto-e-vírgula
+
+O ponto-e-vírgula *NÃO* deve ser usado:
+
+- depois de um `include`
+- ao final da primeira linha de estruturas de seleção (`if`, `else` e `switch`), laços de repetição (`for`, `while` e `do`) e funções (como `main`)
+- depois de abre ou fecha chaves
+
+== Uso de aspas duplas "
+
+Aspas podem ser utilizadas em comandos de saída como o `printf`, quando se deseja imprimir um determinado texto para o usuário. Neste caso, as aspas ficam dentro dos parênteses, como abaixo:
+
+[source,c]
+----
+printf("O tempo de viagem entre as duas cidades é de %.2f horas", tempo);
+----
+
+Também deve-se utilizar aspas em comandos `scanf` para indicar o tipo da variável a ser lida, como mostrado abaixo.
+
+[source,c]
+----
+float velocidade;
+printf("Digite a velocidade: ");
+scanf("%f", &velocidade);
+----
+
+Deve-se utilizar aspas duplas também quando deseja-se armazenar um valor fixo (pré-determinado) em uma variável string, como mostrado abaixo.
+
+[source,c]
+----
+char cidade[50] = "Palmas";
+printf("Bem vindo a %s\n", cidade);
+----
+
+== Uso de aspas simples ' (apóstrofo)
+
+As aspas simples devem ser utilizadas, por exemplo, quando precisa-se armazenar um valor fixo em uma variável do tipo char. Neste caso, não confundir com tipo string. Uma variável é denominada string quando o tipo dela é char, mas ela foi declarada utilizando colchetes [] para indicar o total máximo de caracteres permitidos. 
+
+Uma variável do tipo char que não possui colchetes permite armazenar apenas um caractere. Nestes casos, caso deseja armazenar um valor fixo em tal variável, deve-se utilizar aspas simples, como abaixo:
+
+[source,c]
+----
+char letra = 'a';
+printf("A primeira letra do alfebeto é %c\n", letra);
+----
+
+== Uso de Parênteses
+
+Parênteses devem ser utilizados obrigatoriamente:
+
+- após o nome de uma função (como a `main()`), seja no momento de criar tal função ou de apenas chamá-la (usá-la). Quando escrevemos um algoritmo em C, criamos uma função `main()` que é executada quando a aplicação compilada é iniciada. Outras funções pré-existentes como a `printf` e `scanf` nós apenas usamos (chamamos), mas também é obrigatório colocar parênteses após o nome da função.
+- após estruturas de seleção e repetição, como: `if()`, `switch()`, `for()`, `while()`, `do()`
+- opcionalmente em expressões aritméticas ou lógicas, quando deseja-se dar prioridade a uma determinada sub-expressão, por exemplo: `x  * (4 + y)`, onde desejamos priorizar a soma e não a multiplicação.
+
+== Uso de &
+
+O caractere &, chamado "E comercial", deve ser utilizado para obter o endereço de memória de uma variável. Ele deve ser utilizado em funções como o `scanf`, onde passa-se uma variável para a função, e tal variável terá seu conteúdo alterado para algum valor (normalmente digitado pelo usuário). A função precisa saber qual o endereço da variável para poder acessar tal endereço e armazenar o valor na variável.
+
+No `scanf`, deve-se utilizar & apenas para variáveis que não sejam um vetor: ou seja, que não armazenem mais de um valor. Um vetor é uma variável que é declarada contendo colchetes []. Uma string é o caso mais comum. Ela é um vetor de caracteres, declarada como, por exemplo: `char nome[50]`.
+
+Então, no caso de vetores, não se usa & antes do nome da variável em funções como o `scanf`, como `scanf("%s", nome)`. Para qualquer outro tipo de variável que não seja vetor (que não tenha colchetes), deve-se colocar o & antes da variável.
+
+== Recomendações para evitar erros ao escrever algoritmos
+
+Uma excelente prática para evitar erros de compilação pela falta de um fecha-chaves, aspas ou parênteses é, após abrir qualquer um destes elementos, fechá-los imediatamente antes de fazer qualquer outra coisa. 
+
+Editores mais avançados como o Geany e http://code.visualstudio.com[Visual Studio Code] permitem fechar tais elementos automaticamente quando um deles é aberto. No caso de editores como o Geany, é preciso configurar tal opção acessando usualmente o menu "Editar >> Preferências".
