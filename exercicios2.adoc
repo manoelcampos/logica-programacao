@@ -37,7 +37,7 @@ Com uma margem de luco do distribuidor de 28%, escreva um algoritmo que  solicit
 .Trocando valores de variáveis (Imagem: https://www.amara.com/products/water-wine-carafe-oak-base[amara.com])
 image::water-wine.png[]
 
-Tendo duas variáveis `a` e `b`, a troca de valores entre essas duas variáveis é algo simples mas bastante utilizado em computação, principalmente quando deseja-se ordenar valores dentro de variáveis.
+Tendo duas variáveis `a` e `b`, a troca de valores entre essas variáveis é algo simples mas bastante utilizado em computação, principalmente quando deseja-se ordenar valores dentro de variáveis.
 
 Considerando isso, desenvolva os algoritmos a seguir.
 
