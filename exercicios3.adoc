@@ -1,0 +1,41 @@
+:imagesdir: images
+
+# Exercícios com Laços de Repetição `for`
+
+## Exercícios gerais
+
+- escrever todas as letras do alfabeto.
+- exibir a soma dos números de 0 a 100.
+- exibir a soma dos 100 primeiros números pares.
+- exibir a média de 3 notas obtidas por um aluno.
+- calcular o perímetro (a soma da medida dos lados) de um pentágono.
+- solicitar a idade de 5 pessoas e exibir a maior e menor idade, além da média das idades.
+- exibir a tabuada de multiplicação de um número digitado pelo usuário.
+- solicitar a idade e altura de 5 pessoas. Ao final, exibir qual a pessoa mais alta, a mais baixa, a mais nova e a mais velha.
+- gerar uma tabela com a conversão de graus Celsius para Fahrenheit, com valores variando de 1 em 1 grau, de 0 a 100 graus Celsius. Utilize a fórmula `f = c * 1.8 + 32`
+- calcular quantos divisores um número possui.
+- calcular a potência de um número.
+
+## Tabuada
+
+Desenvolva um programa onde o usuário digita um número e uma operação aritimética (*, /, - ou +). O programa deve exibir a tabuada da operação escolhida para o número informado. A operação deve ser uma variável do tipo `char` onde o usuário digitará um dos caracteres listados acima.
+Para verificar, por exemplo, se a operação escolhida foi a multiplicação, utilize uma instrução como abaixo:
+
+[source,c]
+----
+if(op == '*')
+{
+     //codigo desejado
+}
+----
+
+## Uso de elevadores em um prédio
+
+Em um prédio com 50 moradores há três elevadores denominados A, B e C. Para otimizar o sistema de controle dos elevadores, desenvolva um programa em que cada morador informa qual o elevador que utiliza com mais freqüência (A, B ou C).
+O programa deve contabilizar o total de pessoas que usa cada um dos elevadores e mostrar estes totais no final.
+
+## Salário Família
+
+Desenvolva um programa para cálculo do salário família dos 4 funcionários de uma empresa. O programa deve solicitar o salário bruto do funcionário e o total de dependentes. O salário líquido do funcionário será o salário bruto acrescido de 2% sobre cada dependente que o funcionário tiver. Para funcionários com mais de 5 dependentes o cálculo deve ser feito considerando apenas 5 dependentes.
+
+O salário líquido deve ser calculado e exibido imediatamente após o usuário informar os dados de um funcionário.

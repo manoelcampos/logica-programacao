@@ -5,4 +5,5 @@
 . link:chapter2.adoc[Introdução à programação em C]
 . link:exercicios1.adoc[Lista de Exercícios 1]
 . link:exercicios2.adoc[Lista de Exercícios 2]
+. link:exercicios3.adoc[Exercícios com Laços de Repetição]
 . link:dicas-linguagem-c.adoc[Dicas da Linguagem C]
