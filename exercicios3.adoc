@@ -39,3 +39,18 @@ O programa deve contabilizar o total de pessoas que usa cada um dos elevadores e
 Desenvolva um programa para cálculo do salário família dos 4 funcionários de uma empresa. O programa deve solicitar o salário bruto do funcionário e o total de dependentes. O salário líquido do funcionário será o salário bruto acrescido de 2% sobre cada dependente que o funcionário tiver. Para funcionários com mais de 5 dependentes o cálculo deve ser feito considerando apenas 5 dependentes.
 
 O salário líquido deve ser calculado e exibido imediatamente após o usuário informar os dados de um funcionário.
+
+# Múltiplos de um número
+Escreva um algoritmo em C que determine quais são e quantos são os divisores de um dado número.
+
+# Tabela de Conversão de Celsius para Fahrenheit
+
+Escreva um algoritmo que gere uma tabela com a conversão de graus Celsius para Fahrenheit, com valores variando de 1 em 1 grau, de 0 a 100 graus Celsius, utilizando a fórmula `F = C × 1.8 + 32`
+
+# Números Primos
+
+Números primos são aqueles que tem apenas 2 divisores: 1 e ele mesmo. Assim, desenvolva um programa onde o usuário informa um número e o programa indica se este é primo ou não. Para isto, utilize um laço de repetição que inicia em 2 (pois todo número é divisível por 1) e vai até o antecessor do número digitado pelo usuário. 
+
+Dentro do laço de repetição deve-se verificar se o número digitado é divisível pela variável de controle do laço. Se for, o número não é primo, pois foi encontrado um outro divisor que não seja nem 1 e nem o próprio número. Assim, deve-se exibir uma mensagem “O número não é primo” e sair do programa executando a instrução `return;`
+
+Fora do laço de repetição deve-se exibir “O número é primo”, pois se o número não for primo, o programa será fechado antes de chegar nesta instrução.
